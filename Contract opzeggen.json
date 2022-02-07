@@ -13,10 +13,10 @@
   },
   "LocationChange" : null,
   "CancelContract" : {
-    "Date" : "2022-03-15T00:00:00"
+    "Date" : "2022-03-10T00:00:00"
   },
   "RemarkContact" : {
-    "Remark" : "Dit hahahahhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa is een algemene melding die ouder meegeeft.",
+    "Remark" : "Dit is een algemene melding die ouder meegeeft.",
     "Contact" : "yes",
     "ContactType" : "telephone"
   }
