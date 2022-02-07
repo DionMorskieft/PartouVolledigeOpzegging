@@ -1,0 +1,1659 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TestTopdesk" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ss="clr-namespace:System.Security;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="JsonInput" Type="InArgument(x:String)" />
+  </x:Members>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1119,827</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="44">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>Newtonsoft.Json.Linq</x:String>
+      <x:String>Newtonsoft.Json</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Web</x:String>
+      <x:String>UiPath.Web.Activities</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Collections.Specialized</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.Mail.Outlook.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>UiPath.Database</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Database.Activities</x:String>
+      <x:String>UiPath.CSV</x:String>
+      <x:String>UiPath.CSV.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="74">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>Newtonsoft.Json</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>UiPath.MobileAutomation</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.Web</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Database</AssemblyReference>
+      <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Hoofdsequence" sap:VirtualizedContainerService.HintSize="480,507" sap2010:WorkflowViewState.IdRef="Sequence_144">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Int32" Name="rcode" />
+      <Variable x:TypeArguments="x:String" Name="apikey" />
+      <Variable x:TypeArguments="x:Boolean" Name="found" />
+      <Variable x:TypeArguments="x:String" Name="PersoonID" />
+      <Variable x:TypeArguments="njl:JObject" Name="JOut" />
+      <Variable x:TypeArguments="x:String" Name="sjabloonkey" />
+      <Variable x:TypeArguments="x:String" Default="36476c75-c7b6-4c5a-8283-d770e1267646" Name="PlanningID" />
+      <Variable x:TypeArguments="njl:JObject[]" Name="jArr" />
+      <Variable x:TypeArguments="x:String" Name="Tekst" />
+      <Variable x:TypeArguments="x:String" Name="Debnr" />
+      <Variable x:TypeArguments="x:String" Name="KRN" />
+      <Variable x:TypeArguments="x:String" Name="OpzegDatum" />
+      <Variable x:TypeArguments="x:String" Name="RedenOpzegging" />
+      <Variable x:TypeArguments="x:String" Name="ContactOpnemen" />
+      <Variable x:TypeArguments="x:String" Name="ContactKeuze" />
+      <Variable x:TypeArguments="x:String" Name="Opmerking" />
+      <Variable x:TypeArguments="x:String" Name="test" />
+      <Variable x:TypeArguments="x:String" Name="Query" />
+      <Variable x:TypeArguments="sd:DataTable" Name="DtQueryPlannerLocatie" />
+      <Variable x:TypeArguments="x:String" Name="Locatie" />
+      <Variable x:TypeArguments="x:String" Name="Planner" />
+      <Variable x:TypeArguments="x:String" Name="OpzegdatumDate" />
+      <Variable x:TypeArguments="x:String" Name="TopdeskURL" />
+      <Variable x:TypeArguments="ss:SecureString" Name="Topdeskwachtwoord" />
+      <Variable x:TypeArguments="x:String" Name="Topdeskusername" />
+      <Variable x:TypeArguments="x:String" Name="Wachtwoord" />
+      <Variable x:TypeArguments="x:String" Default="Volledige opzegging kinderopvang" Name="KorteOmschrijving" />
+      <Variable x:TypeArguments="x:String" Default="1113738" Name="OpNaamVan" />
+      <Variable x:TypeArguments="x:String" Default="Wijziging LM\n test Afas vervanger test" Name="OverigeInformatie" />
+      <Variable x:TypeArguments="x:String" Default="jasjasjd" Name="OmschrijvingMelding" />
+      <Variable x:TypeArguments="x:String" Name="PersoneelsnummerLM" />
+      <Variable x:TypeArguments="x:String" Name="PersoneelsnummerVervanger" />
+      <Variable x:TypeArguments="x:String" Name="PersoneelsnummerOudeVervanger" />
+      <Variable x:TypeArguments="x:String" Name="Formatieregels" />
+      <Variable x:TypeArguments="njl:JObject" Name="JsonOut" />
+      <Variable x:TypeArguments="x:Boolean" Name="TopdeskDown" />
+      <Variable x:TypeArguments="x:String" Name="RedenOpzeggingKocon" />
+      <Variable x:TypeArguments="x:String" Name="Taal" />
+      <Variable x:TypeArguments="x:String" Name="Email" />
+      <Variable x:TypeArguments="x:String" Name="Telefoonnummer" />
+      <Variable x:TypeArguments="x:String" Name="Label" />
+      <Variable x:TypeArguments="x:Boolean" Name="Meldingsuccesvol" />
+      <Variable x:TypeArguments="x:String" Name="BerichtOpzegging" />
+      <Variable x:TypeArguments="sd:DataTable" Name="DtLocatieKind" />
+      <Variable x:TypeArguments="sd:DataTable" Name="DB_Query" />
+      <Variable x:TypeArguments="x:String" Name="Connectionstring" />
+      <Variable x:TypeArguments="ss:SecureString" Name="KoconDbPassword" />
+      <Variable x:TypeArguments="x:String" Name="KoconDbUserID" />
+      <Variable x:TypeArguments="x:String" Name="callerID" />
+      <Variable x:TypeArguments="x:String" Name="KoconDbDataSource" />
+      <Variable x:TypeArguments="x:String" Name="KoconDbInitialCatalog" />
+      <Variable x:TypeArguments="x:String" Name="KoconDbPersistSecurityInfo" />
+      <Variable x:TypeArguments="x:String" Name="ManierContact" />
+      <Variable x:TypeArguments="x:String" Name="MailOnderwerp" />
+      <Variable x:TypeArguments="x:String" Name="regio" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="438,66" sap2010:WorkflowViewState.IdRef="Sequence_141">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence DisplayName="melding" sap:VirtualizedContainerService.HintSize="1752,5359" sap2010:WorkflowViewState.IdRef="Sequence_140">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Sequence DisplayName="Verwerk gegevens json/kocon" sap:VirtualizedContainerService.HintSize="1710,66" sap2010:WorkflowViewState.IdRef="Sequence_99">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="Haal gegevens uit Json" sap:VirtualizedContainerService.HintSize="473,535" sap2010:WorkflowViewState.IdRef="Sequence_98">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:ReadTextFile Content="[JsonInput]" DisplayName="Read Text File" FileName="Contract opzeggen.json" sap:VirtualizedContainerService.HintSize="431,79" sap2010:WorkflowViewState.IdRef="ReadTextFile_1" />
+            <ui:DeserializeJson x:TypeArguments="njl:JObject" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="431,60" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_1" JsonObject="[JsonOut]" JsonString="[Jsoninput.ToString]" />
+            <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="431,224" sap2010:WorkflowViewState.IdRef="MultipleAssign_4">
+              <ui:MultipleAssign.AssignOperations>
+                <scg:List x:TypeArguments="ui:AssignOperation" Capacity="16">
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_32">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[Debnr]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">[JsonOut("DebtorNumber").ToString.Replace(“Diff Messages”,"").Replace(“Diff Calculation Completed Successfully”,"").Replace(Environment.NewLine,"").Replace(vbCr, “”).Replace(vbLf, “”).Replace(vbCrLf, “”).Replace(vbTab,"").ToString.Trim]</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_33">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[Taal]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">[JsonOut("Locale").ToString]</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_34">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[Email]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">[JsonOut("Email").ToString]</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_35">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[Telefoonnummer]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">[JsonOut("PhoneNumber").ToString]</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_36">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:Boolean">[Meldingsuccesvol]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                </scg:List>
+              </ui:MultipleAssign.AssignOperations>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:MultipleAssign>
+          </Sequence>
+        </Sequence>
+        <If Condition="[string.IsNullOrEmpty(DebNr) Or string.IsNullOrEmpty(Taal)]" DisplayName="Partou" sap:VirtualizedContainerService.HintSize="1710,5161" sap2010:WorkflowViewState.IdRef="If_21">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <If.Then>
+            <Throw Exception="[new NotSupportedException(&quot;Data Mijn-Sites niet volledig&quot;)]" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Throw_4" />
+          </If.Then>
+          <If.Else>
+            <Sequence sap:VirtualizedContainerService.HintSize="1465,5003" sap2010:WorkflowViewState.IdRef="Sequence_115">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="1423,348" sap2010:WorkflowViewState.IdRef="MultipleAssign_5">
+                <ui:MultipleAssign.AssignOperations>
+                  <scg:List x:TypeArguments="ui:AssignOperation" Capacity="16">
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_37">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:String">[KRN]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:String">[JsonOut("ChildRegistrationNumbers").ToString]</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_38">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:String">[OpzegDatum]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:String">[JsonOut("CancelContract")("Date").ToString]</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_39">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:String">[RedenOpzegging]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:String">[JsonOut("ReasonOfTermination")("Reason").ToString.Replace(""""," ")]</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_40">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:String">[ContactOpnemen]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:String">[JsonOut("RemarkContact")("Contact").ToString]</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_41">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:String">[ContactKeuze]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:String">[JsonOut("RemarkContact")("ContactType").ToString]</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_42">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:String">[Opmerking]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:String">[JsonOut("RemarkContact")("Remark").ToString.Replace(""""," ")]</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_43">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:String">[OpzegdatumDate]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:String">[convert.ToDateTime(Opzegdatum).ToString("dd-MM-yyyy")]</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_44">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:String">[BerichtOpzegging]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:String">[JsonOut("ReasonOfTermination")("Message").ToString]</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_45">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:String">[Label]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:String">Partou</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                  </scg:List>
+                </ui:MultipleAssign.AssignOperations>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:MultipleAssign>
+              <Sequence DisplayName="Haal Locatie" sap:VirtualizedContainerService.HintSize="1423,1510" sap2010:WorkflowViewState.IdRef="Sequence_167">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="484,51" sap2010:WorkflowViewState.IdRef="CommentOut_3">
+                  <ui:CommentOut.Body>
+                    <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="562,2663" sap2010:WorkflowViewState.IdRef="Sequence_171">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <Sequence DisplayName="SmallstepsProdDb" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_160">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Sequence DisplayName="QuerySequence" sap:VirtualizedContainerService.HintSize="478,1855" sap2010:WorkflowViewState.IdRef="Sequence_169">
+                          <Sequence.Variables>
+                            <Variable x:TypeArguments="x:String" Name="KoconDbDataSource" />
+                            <Variable x:TypeArguments="x:String" Name="KoconDbInitialCatalog" />
+                            <Variable x:TypeArguments="x:String" Name="KoconDbPersistSecurityInfo" />
+                            <Variable x:TypeArguments="x:String" Name="KoconDbUserID" />
+                            <Variable x:TypeArguments="ss:SecureString" Name="KoconDbPassword" />
+                            <Variable x:TypeArguments="x:String" Name="Wachtwoord" />
+                            <Variable x:TypeArguments="x:String" Name="Connectionstring" />
+                          </Sequence.Variables>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconPartouProductieQueryPlaatsingsregels" DisplayName="Get Asset Query" sap:VirtualizedContainerService.HintSize="436,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_67">
+                            <ui:GetRobotAsset.Value>
+                              <OutArgument x:TypeArguments="x:String">[query]</OutArgument>
+                            </ui:GetRobotAsset.Value>
+                          </ui:GetRobotAsset>
+                          <Assign sap:VirtualizedContainerService.HintSize="436,60" sap2010:WorkflowViewState.IdRef="Assign_342">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[query]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">[query.Replace("""+krn+""",krn)]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="436,61" sap2010:WorkflowViewState.IdRef="WriteLine_15" Text="[query]" />
+                          <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconDbDataSource" DisplayName="Get Asset KoconDbDataSource" sap:VirtualizedContainerService.HintSize="436,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_68">
+                            <ui:GetRobotAsset.Value>
+                              <OutArgument x:TypeArguments="x:String">[KoconDbDataSource]</OutArgument>
+                            </ui:GetRobotAsset.Value>
+                          </ui:GetRobotAsset>
+                          <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconDbInitialCatalog" DisplayName="Get Asset KoconDbInitialCatalog" sap:VirtualizedContainerService.HintSize="436,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_69">
+                            <ui:GetRobotAsset.Value>
+                              <OutArgument x:TypeArguments="x:String">[KoconDbInitialCatalog]</OutArgument>
+                            </ui:GetRobotAsset.Value>
+                          </ui:GetRobotAsset>
+                          <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconDbPersistSecurityInfo" DisplayName="Get Asset KoconDbPersistSecurityInfo" sap:VirtualizedContainerService.HintSize="436,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_70">
+                            <ui:GetRobotAsset.Value>
+                              <OutArgument x:TypeArguments="x:String">[KoconDbPersistSecurityInfo]</OutArgument>
+                            </ui:GetRobotAsset.Value>
+                          </ui:GetRobotAsset>
+                          <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconDbUserID" DisplayName="Get Asset KoconDbUserID" sap:VirtualizedContainerService.HintSize="436,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_71">
+                            <ui:GetRobotAsset.Value>
+                              <OutArgument x:TypeArguments="x:String">[KoconDbUserID]</OutArgument>
+                            </ui:GetRobotAsset.Value>
+                          </ui:GetRobotAsset>
+                          <ui:GetRobotCredential TimeoutMS="{x:Null}" Username="{x:Null}" AssetName="KoconDbPassword" DisplayName="Get Credential password" sap:VirtualizedContainerService.HintSize="436,79" sap2010:WorkflowViewState.IdRef="GetRobotCredential_15" Password="[KoconDbPassword]" />
+                          <Assign DisplayName="Assign wachtwoord" sap:VirtualizedContainerService.HintSize="436,60" sap2010:WorkflowViewState.IdRef="Assign_343">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[Wachtwoord]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">[new System.Net.NetworkCredential(string.Empty,KoconDbPassword).Password]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="436,230" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                            <ui:CommentOut.Body>
+                              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="304,152" sap2010:WorkflowViewState.IdRef="Sequence_168">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <Assign DisplayName="Assign Connectionstring" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_344">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:String">[Connectionstring]</OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:String">["Data Source="+KoconDbDataSource+";Initial Catalog="+KoconDbInitialCatalog+";Persist Security Info="+KoconDbPersistSecurityInfo+";User ID="+KoconDbUserId+";Password="+Wachtwoord]</InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                              </Sequence>
+                            </ui:CommentOut.Body>
+                          </ui:CommentOut>
+                          <Assign DisplayName="Assign Connectionstring" sap:VirtualizedContainerService.HintSize="436,60" sap2010:WorkflowViewState.IdRef="Assign_345">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[Connectionstring]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">["Data Source=DTC-IPV-SQL001.ssc.local,55472,;Initial Catalog="+KoconDbInitialCatalog+";Persist Security Info="+KoconDbPersistSecurityInfo+";User ID="+KoconDbUserId+";Password="+Wachtwoord]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <ui:ExecuteQuery ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="[Connectionstring]" DataTable="[DtLocatieKind]" DisplayName="Execute Query" sap:VirtualizedContainerService.HintSize="436,88" sap2010:WorkflowViewState.IdRef="ExecuteQuery_17" ProviderName="System.Data.SqlClient" Sql="[query]">
+                            <ui:ExecuteQuery.Parameters>
+                              <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                            </ui:ExecuteQuery.Parameters>
+                          </ui:ExecuteQuery>
+                        </Sequence>
+                        <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[DtLocatieKind]" Delimitator="Semicolon" DisplayName="Write CSV" FilePath="Untitled.csv" sap:VirtualizedContainerService.HintSize="478,152" sap2010:WorkflowViewState.IdRef="WriteCsvFile_4" />
+                        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="478,84" sap2010:WorkflowViewState.IdRef="MessageBox_7" Text="[DtLocatieKind.Rows.Count.ToString]" />
+                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="478,236" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                          <ui:CommentOut.Body>
+                            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="242,158" sap2010:WorkflowViewState.IdRef="Sequence_170">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <Sequence DisplayName="QuerySequence" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_159">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconPartouProductieQueryPlaatsingsregels" DisplayName="Get Asset Query" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_57">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[query]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_335">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:String">[query]</OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:String">[query.Replace("""+krn+""",krn)]</InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_12" Text="[query]" />
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconDbDataSource" DisplayName="Get Asset KoconDbDataSource" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_58">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[KoconDbDataSource]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconDbInitialCatalog" DisplayName="Get Asset KoconDbInitialCatalog" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_59">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[KoconDbInitialCatalog]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconDbPersistSecurityInfo" DisplayName="Get Asset KoconDbPersistSecurityInfo" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_60">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[KoconDbPersistSecurityInfo]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconDbUserID" DisplayName="Get Asset KoconDbUserID" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_61">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[KoconDbUserID]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <ui:GetRobotCredential TimeoutMS="{x:Null}" Username="{x:Null}" AssetName="KoconDbPassword" DisplayName="Get Credential password" sap:VirtualizedContainerService.HintSize="334,79" sap2010:WorkflowViewState.IdRef="GetRobotCredential_13" Password="[KoconDbPassword]" />
+                                <Assign DisplayName="Assign wachtwoord" sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_336">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:String">[Wachtwoord]</OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:String">[new System.Net.NetworkCredential(string.Empty,KoconDbPassword).Password]</InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                                <Assign DisplayName="Assign Connectionstring" sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_337">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:String">[Connectionstring]</OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:String">["Data Source="+KoconDbDataSource+".ssc.local:50625;;Initial Catalog="+KoconDbInitialCatalog+";Persist Security Info="+KoconDbPersistSecurityInfo+";User ID="+KoconDbUserId+";Password="+Wachtwoord]</InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_14" Text="[Connectionstring]" />
+                                <ui:ExecuteQuery ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="[Connectionstring]" DataTable="[DtLocatieKind]" DisplayName="Execute Query" sap:VirtualizedContainerService.HintSize="334,88" sap2010:WorkflowViewState.IdRef="ExecuteQuery_15" ProviderName="System.Data.SqlClient" Sql="[query]">
+                                  <ui:ExecuteQuery.Parameters>
+                                    <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                                  </ui:ExecuteQuery.Parameters>
+                                </ui:ExecuteQuery>
+                              </Sequence>
+                            </Sequence>
+                          </ui:CommentOut.Body>
+                        </ui:CommentOut>
+                      </Sequence>
+                    </Sequence>
+                  </ui:CommentOut.Body>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </ui:CommentOut>
+                <Sequence DisplayName="CM" sap:VirtualizedContainerService.HintSize="484,851" sap2010:WorkflowViewState.IdRef="Sequence_176">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="CMUrl" />
+                    <Variable x:TypeArguments="x:String" Name="CMKey" />
+                    <Variable x:TypeArguments="x:String" Name="result" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="CMUrl" DisplayName="Get Asset" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_74">
+                    <ui:GetRobotAsset.Value>
+                      <OutArgument x:TypeArguments="x:String">[CMUrl]</OutArgument>
+                    </ui:GetRobotAsset.Value>
+                  </ui:GetRobotAsset>
+                  <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="CMKey" DisplayName="Get Asset" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_75">
+                    <ui:GetRobotAsset.Value>
+                      <OutArgument x:TypeArguments="x:String">[CMKey]</OutArgument>
+                    </ui:GetRobotAsset.Value>
+                  </ui:GetRobotAsset>
+                  <ui:HttpClient Body="{x:Null}" ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" ContinueOnError="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" ResourcePath="{x:Null}" ResponseHeaders="{x:Null}" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" StatusCode="{x:Null}" Username="{x:Null}" AcceptFormat="ANY" BodyFormat="application/json" ClientCertificate="[Nothing]" ClientCertificatePassword="[Nothing]" DisplayName="HTTP Request" EnableSSLVerification="True" EndPoint="[CMUrl+Email]" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="HttpClient_2" Method="GET" Result="[result]" TimeoutMS="6000">
+                    <ui:HttpClient.Attachments>
+                      <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                    </ui:HttpClient.Attachments>
+                    <ui:HttpClient.Cookies>
+                      <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                    </ui:HttpClient.Cookies>
+                    <ui:HttpClient.Headers>
+                      <InArgument x:TypeArguments="x:String" x:Key="X-API-KEY">[CMKey]</InArgument>
+                    </ui:HttpClient.Headers>
+                    <ui:HttpClient.Parameters>
+                      <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                    </ui:HttpClient.Parameters>
+                    <ui:HttpClient.UrlSegments>
+                      <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                    </ui:HttpClient.UrlSegments>
+                  </ui:HttpClient>
+                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_17" Text="[result]" />
+                  <ui:DeserializeJson x:TypeArguments="njl:JObject" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_3" JsonObject="[Jout]" JsonString="[result]" />
+                  <If Condition="[result.Contains(&quot;Planner&quot;)]" DisplayName="Bepaal planner" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="If_33">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <If.Then>
+                      <Sequence sap:VirtualizedContainerService.HintSize="304,252" sap2010:WorkflowViewState.IdRef="Sequence_173">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Assign DisplayName="Assign Planner" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_346">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:String">[Planner]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:String">[Jout("panel_view")("Planner").ToString]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <Assign DisplayName="Assign Regio" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_347">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:String">[Regio]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:String">[Jout("panel_view")("Regio").ToString]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                      </Sequence>
+                    </If.Then>
+                    <If.Else>
+                      <Assign DisplayName="Assign Planner" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_348">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:String">[Planner]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:String">
+                            <Literal x:TypeArguments="x:String" Value="" />
+                          </InArgument>
+                        </Assign.Value>
+                      </Assign>
+                    </If.Else>
+                  </If>
+                  <If Condition="[result.Contains(&quot;Opvanglocatie1&quot;)]" DisplayName="Bepaal Locatie" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="If_34">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <If.Then>
+                      <Sequence sap:VirtualizedContainerService.HintSize="304,152" sap2010:WorkflowViewState.IdRef="Sequence_174">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Assign DisplayName="Assign locatie" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_349">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:String">[Locatie]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:String">[Jout("panel_view")("Opvanglocatie1").ToString]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                      </Sequence>
+                    </If.Then>
+                    <If.Else>
+                      <Sequence sap:VirtualizedContainerService.HintSize="304,152" sap2010:WorkflowViewState.IdRef="Sequence_175">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Assign DisplayName="Assign locatie" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_350">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:String">[Locatie]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </Assign.Value>
+                        </Assign>
+                      </Sequence>
+                    </If.Else>
+                  </If>
+                </Sequence>
+                <If Condition="[string.Isnullorempty(planner)]" sap:VirtualizedContainerService.HintSize="484,436" sap2010:WorkflowViewState.IdRef="If_35">
+                  <If.Then>
+                    <Sequence sap:VirtualizedContainerService.HintSize="242,249" sap2010:WorkflowViewState.IdRef="Sequence_178">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <Sequence DisplayName="Haal data uit dell boomi" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_172">
+                        <Sequence.Variables>
+                          <Variable x:TypeArguments="x:String" Name="result" />
+                          <Variable x:TypeArguments="njl:JObject" Name="Jout" />
+                          <Variable x:TypeArguments="x:String" Name="DBUrl" />
+                          <Variable x:TypeArguments="x:String" Name="DBKey" />
+                          <Variable x:TypeArguments="sd:DataTable" Name="dt" />
+                          <Variable x:TypeArguments="x:String" Default="19592" Name="krn" />
+                        </Sequence.Variables>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="PartouPlaatsingsregelsDellBoomiURL" DisplayName="Get Asset" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_72">
+                          <ui:GetRobotAsset.Value>
+                            <OutArgument x:TypeArguments="x:String">[DBUrl]</OutArgument>
+                          </ui:GetRobotAsset.Value>
+                        </ui:GetRobotAsset>
+                        <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="PartouPlaatsingsregelsDellBoomiApiKey" DisplayName="Get Asset" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_73">
+                          <ui:GetRobotAsset.Value>
+                            <OutArgument x:TypeArguments="x:String">[DBKey]</OutArgument>
+                          </ui:GetRobotAsset.Value>
+                        </ui:GetRobotAsset>
+                        <ui:HttpClient Body="{x:Null}" ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" ContinueOnError="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" ResourcePath="{x:Null}" ResponseHeaders="{x:Null}" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" StatusCode="{x:Null}" Username="{x:Null}" AcceptFormat="ANY" BodyFormat="application/json" ClientCertificate="[Nothing]" ClientCertificatePassword="[Nothing]" DisplayName="HTTP Request" EnableSSLVerification="True" EndPoint="[DBUrl+krn]" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="HttpClient_1" Method="GET" Result="[result]" TimeoutMS="600000">
+                          <ui:HttpClient.Attachments>
+                            <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                          </ui:HttpClient.Attachments>
+                          <ui:HttpClient.Cookies>
+                            <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                          </ui:HttpClient.Cookies>
+                          <ui:HttpClient.Headers>
+                            <InArgument x:TypeArguments="x:String" x:Key="X-API-KEY">[DBKey]</InArgument>
+                          </ui:HttpClient.Headers>
+                          <ui:HttpClient.Parameters>
+                            <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                          </ui:HttpClient.Parameters>
+                          <ui:HttpClient.UrlSegments>
+                            <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                          </ui:HttpClient.UrlSegments>
+                        </ui:HttpClient>
+                        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_16" Text="[result]" />
+                        <ui:DeserializeJson x:TypeArguments="sd:DataTable" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_2" JsonObject="[dtlocatiekind]" JsonString="[result]" />
+                        <If Condition="[DtLocatieKind.Rows.Count&gt;0]" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="If_32">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <If.Then>
+                            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[DtLocatieKind]" DisplayName="For Each Row dtlocatiekind" sap:VirtualizedContainerService.HintSize="338,272" sap2010:WorkflowViewState.IdRef="ForEachRow_12">
+                              <ui:ForEachRow.Body>
+                                <ActivityAction x:TypeArguments="sd:DataRow">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
+                                  </ActivityAction.Argument>
+                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="304,152" sap2010:WorkflowViewState.IdRef="Sequence_161">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_338">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:String">[Locatie]</OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:String">[row("locatie_naam").ToString]</InArgument>
+                                      </Assign.Value>
+                                    </Assign>
+                                  </Sequence>
+                                </ActivityAction>
+                              </ui:ForEachRow.Body>
+                            </ui:ForEachRow>
+                          </If.Then>
+                          <If.Else>
+                            <Sequence sap:VirtualizedContainerService.HintSize="422,762" sap2010:WorkflowViewState.IdRef="Sequence_166">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <Sequence sap:VirtualizedContainerService.HintSize="380,670" sap2010:WorkflowViewState.IdRef="Sequence_165">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <Sequence DisplayName="SmallstepsProdDb" sap:VirtualizedContainerService.HintSize="338,66" sap2010:WorkflowViewState.IdRef="Sequence_163">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <Sequence DisplayName="QuerySequence" sap:VirtualizedContainerService.HintSize="486,1485" sap2010:WorkflowViewState.IdRef="Sequence_162">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconPartouProductieQueryPlaatsingsregelsDebnr" DisplayName="Get Asset Query" sap:VirtualizedContainerService.HintSize="444,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_62">
+                                      <ui:GetRobotAsset.Value>
+                                        <OutArgument x:TypeArguments="x:String">[query]</OutArgument>
+                                      </ui:GetRobotAsset.Value>
+                                    </ui:GetRobotAsset>
+                                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="444,61" sap2010:WorkflowViewState.IdRef="WriteLine_13" Text="[query]" />
+                                    <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconDbDataSource" DisplayName="Get Asset KoconDbDataSource" sap:VirtualizedContainerService.HintSize="444,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_63">
+                                      <ui:GetRobotAsset.Value>
+                                        <OutArgument x:TypeArguments="x:String">[KoconDbDataSource]</OutArgument>
+                                      </ui:GetRobotAsset.Value>
+                                    </ui:GetRobotAsset>
+                                    <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconDbInitialCatalog" DisplayName="Get Asset KoconDbInitialCatalog" sap:VirtualizedContainerService.HintSize="444,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_64">
+                                      <ui:GetRobotAsset.Value>
+                                        <OutArgument x:TypeArguments="x:String">[KoconDbInitialCatalog]</OutArgument>
+                                      </ui:GetRobotAsset.Value>
+                                    </ui:GetRobotAsset>
+                                    <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconDbPersistSecurityInfo" DisplayName="Get Asset KoconDbPersistSecurityInfo" sap:VirtualizedContainerService.HintSize="444,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_65">
+                                      <ui:GetRobotAsset.Value>
+                                        <OutArgument x:TypeArguments="x:String">[KoconDbPersistSecurityInfo]</OutArgument>
+                                      </ui:GetRobotAsset.Value>
+                                    </ui:GetRobotAsset>
+                                    <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconDbUserID" DisplayName="Get Asset KoconDbUserID" sap:VirtualizedContainerService.HintSize="444,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_66">
+                                      <ui:GetRobotAsset.Value>
+                                        <OutArgument x:TypeArguments="x:String">[KoconDbUserID]</OutArgument>
+                                      </ui:GetRobotAsset.Value>
+                                    </ui:GetRobotAsset>
+                                    <ui:GetRobotCredential TimeoutMS="{x:Null}" Username="{x:Null}" AssetName="KoconDbPassword" DisplayName="Get Credential password" sap:VirtualizedContainerService.HintSize="444,79" sap2010:WorkflowViewState.IdRef="GetRobotCredential_14" Password="[KoconDbPassword]" />
+                                    <Assign DisplayName="Assign wachtwoord" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_339">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:String">[Wachtwoord]</OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:String">[new System.Net.NetworkCredential(string.Empty,KoconDbPassword).Password]</InArgument>
+                                      </Assign.Value>
+                                    </Assign>
+                                    <Assign DisplayName="Assign Connectionstring" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_340">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:String">[Connectionstring]</OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:String">["Data Source="+KoconDbDataSource+";Initial Catalog="+KoconDbInitialCatalog+";Persist Security Info="+KoconDbPersistSecurityInfo+";User ID="+KoconDbUserId+";Password="+Wachtwoord]</InArgument>
+                                      </Assign.Value>
+                                    </Assign>
+                                    <ui:ExecuteQuery ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" CommandType="Text" ConnectionString="[Connectionstring]" DataTable="[DtLocatieKind]" DisplayName="Execute Query" sap:VirtualizedContainerService.HintSize="444,88" sap2010:WorkflowViewState.IdRef="ExecuteQuery_16" ProviderName="System.Data.SqlClient" Sql="[query]" TimeoutMS="999999">
+                                      <ui:ExecuteQuery.Parameters>
+                                        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                                      </ui:ExecuteQuery.Parameters>
+                                    </ui:ExecuteQuery>
+                                  </Sequence>
+                                </Sequence>
+                                <ui:FilterDataTable DataTable="[DtLocatieKind]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="338,160" sap2010:WorkflowViewState.IdRef="FilterDataTable_11" OutputDataTable="[DtLocatieKind]" SelectColumnsMode="Keep">
+                                  <ui:FilterDataTable.Filters>
+                                    <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+                                      <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
+                                        <ui:FilterOperationArgument.Column>
+                                          <InArgument x:TypeArguments="x:String">["ouder1_debiteurnr"]</InArgument>
+                                        </ui:FilterOperationArgument.Column>
+                                        <ui:FilterOperationArgument.Operand>
+                                          <InArgument x:TypeArguments="x:String">[Debnr]</InArgument>
+                                        </ui:FilterOperationArgument.Operand>
+                                      </ui:FilterOperationArgument>
+                                    </scg:List>
+                                  </ui:FilterDataTable.Filters>
+                                  <ui:FilterDataTable.SelectColumns>
+                                    <scg:List x:TypeArguments="InArgument" Capacity="4">
+                                      <x:Null />
+                                    </scg:List>
+                                  </ui:FilterDataTable.SelectColumns>
+                                </ui:FilterDataTable>
+                                <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[DtLocatieKind]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="338,272" sap2010:WorkflowViewState.IdRef="ForEachRow_13">
+                                  <ui:ForEachRow.Body>
+                                    <ActivityAction x:TypeArguments="sd:DataRow">
+                                      <ActivityAction.Argument>
+                                        <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
+                                      </ActivityAction.Argument>
+                                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="304,152" sap2010:WorkflowViewState.IdRef="Sequence_164">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_341">
+                                          <Assign.To>
+                                            <OutArgument x:TypeArguments="x:String">[Locatie]</OutArgument>
+                                          </Assign.To>
+                                          <Assign.Value>
+                                            <InArgument x:TypeArguments="x:String">[row("locatie_naam").ToString]</InArgument>
+                                          </Assign.Value>
+                                        </Assign>
+                                      </Sequence>
+                                    </ActivityAction>
+                                  </ui:ForEachRow.Body>
+                                </ui:ForEachRow>
+                              </Sequence>
+                            </Sequence>
+                          </If.Else>
+                        </If>
+                      </Sequence>
+                      <If Condition="[not string.IsNullOrEmpty(Locatie)]" DisplayName="Locatie bekend, haal planner" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="If_18">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <If.Then>
+                          <Sequence DisplayName="Haal planner en Locatie" sap:VirtualizedContainerService.HintSize="476,2572" sap2010:WorkflowViewState.IdRef="Sequence_112">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <Sequence DisplayName="SmallstepsProdDb" sap:VirtualizedContainerService.HintSize="434,1476" sap2010:WorkflowViewState.IdRef="Sequence_110">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <Sequence DisplayName="QuerySequence" sap:VirtualizedContainerService.HintSize="376,1384" sap2010:WorkflowViewState.IdRef="Sequence_109">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconSmallstepsProductieQueryPlannerPerLocatie" DisplayName="Get Asset Query" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_42">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[query]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconDbDataSource" DisplayName="Get Asset KoconDbDataSource" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_43">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[KoconDbDataSource]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconDbInitialCatalog" DisplayName="Get Asset KoconDbInitialCatalog" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_44">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[KoconDbInitialCatalog]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconDbPersistSecurityInfo" DisplayName="Get Asset KoconDbPersistSecurityInfo" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_45">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[KoconDbPersistSecurityInfo]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="KoconDbUserID" DisplayName="Get Asset KoconDbUserID" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_46">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[KoconDbUserID]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <ui:GetRobotCredential TimeoutMS="{x:Null}" Username="{x:Null}" AssetName="KoconDbPassword" DisplayName="Get Credential password" sap:VirtualizedContainerService.HintSize="334,79" sap2010:WorkflowViewState.IdRef="GetRobotCredential_10" Password="[KoconDbPassword]" />
+                                <Assign DisplayName="Assign wachtwoord" sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_201">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:String">[Wachtwoord]</OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:String">[new System.Net.NetworkCredential(string.Empty,KoconDbPassword).Password]</InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                                <Assign DisplayName="Assign Connectionstring" sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_202">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:String">[Connectionstring]</OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:String">["Data Source="+KoconDbDataSource+";Initial Catalog="+KoconDbInitialCatalog+";Persist Security Info="+KoconDbPersistSecurityInfo+";User ID="+KoconDbUserId+";Password="+Wachtwoord]</InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                                <ui:ExecuteQuery ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="[Connectionstring]" DataTable="[DtQueryPlannerLocatie]" DisplayName="Execute Query" sap:VirtualizedContainerService.HintSize="334,88" sap2010:WorkflowViewState.IdRef="ExecuteQuery_12" ProviderName="System.Data.SqlClient" Sql="[query]">
+                                  <ui:ExecuteQuery.Parameters>
+                                    <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                                  </ui:ExecuteQuery.Parameters>
+                                </ui:ExecuteQuery>
+                              </Sequence>
+                            </Sequence>
+                            <ui:FilterDataTable DataTable="[DtQueryPlannerLocatie]" DisplayName="Filter Data Table verwijder zz" FilterRowsMode="Remove" sap:VirtualizedContainerService.HintSize="434,160" sap2010:WorkflowViewState.IdRef="FilterDataTable_8" OutputDataTable="[DtQueryPlannerLocatie]" SelectColumnsMode="Keep">
+                              <ui:FilterDataTable.Filters>
+                                <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+                                  <ui:FilterOperationArgument BooleanOperator="And" Operator="STARTSWITH">
+                                    <ui:FilterOperationArgument.Column>
+                                      <InArgument x:TypeArguments="x:String">["Naam locatie"]</InArgument>
+                                    </ui:FilterOperationArgument.Column>
+                                    <ui:FilterOperationArgument.Operand>
+                                      <InArgument x:TypeArguments="x:String">["ZZ"]</InArgument>
+                                    </ui:FilterOperationArgument.Operand>
+                                  </ui:FilterOperationArgument>
+                                </scg:List>
+                              </ui:FilterDataTable.Filters>
+                              <ui:FilterDataTable.SelectColumns>
+                                <scg:List x:TypeArguments="InArgument" Capacity="4">
+                                  <x:Null />
+                                </scg:List>
+                              </ui:FilterDataTable.SelectColumns>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </ui:FilterDataTable>
+                            <ui:FilterDataTable DataTable="[DtQueryPlannerLocatie]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="434,160" sap2010:WorkflowViewState.IdRef="FilterDataTable_9" OutputDataTable="[DtQueryPlannerLocatie]" SelectColumnsMode="Keep">
+                              <ui:FilterDataTable.Filters>
+                                <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+                                  <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
+                                    <ui:FilterOperationArgument.Column>
+                                      <InArgument x:TypeArguments="x:String">["Naam locatie"]</InArgument>
+                                    </ui:FilterOperationArgument.Column>
+                                    <ui:FilterOperationArgument.Operand>
+                                      <InArgument x:TypeArguments="x:String">[Locatie]</InArgument>
+                                    </ui:FilterOperationArgument.Operand>
+                                  </ui:FilterOperationArgument>
+                                </scg:List>
+                              </ui:FilterDataTable.Filters>
+                              <ui:FilterDataTable.SelectColumns>
+                                <scg:List x:TypeArguments="InArgument" Capacity="4">
+                                  <x:Null />
+                                </scg:List>
+                              </ui:FilterDataTable.SelectColumns>
+                            </ui:FilterDataTable>
+                            <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[DtQueryPlannerLocatie]" Delimitator="Semicolon" DisplayName="Write CSV" FilePath="plannerperloc.csv" sap:VirtualizedContainerService.HintSize="434,152" sap2010:WorkflowViewState.IdRef="WriteCsvFile_1" />
+                            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[DtQueryPlannerLocatie]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="434,372" sap2010:WorkflowViewState.IdRef="ForEachRow_9">
+                              <ui:ForEachRow.Body>
+                                <ActivityAction x:TypeArguments="sd:DataRow">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
+                                  </ActivityAction.Argument>
+                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="304,252" sap2010:WorkflowViewState.IdRef="Sequence_111">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_203">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:String">[Planner]</OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:String">[row("Planner").ToString]</InArgument>
+                                      </Assign.Value>
+                                    </Assign>
+                                    <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_204">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:String">[regio]</OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:String">[row("Regio").ToString]</InArgument>
+                                      </Assign.Value>
+                                    </Assign>
+                                  </Sequence>
+                                </ActivityAction>
+                              </ui:ForEachRow.Body>
+                            </ui:ForEachRow>
+                          </Sequence>
+                        </If.Then>
+                      </If>
+                    </Sequence>
+                  </If.Then>
+                  <If.Else>
+                    <Sequence sap2010:WorkflowViewState.IdRef="Sequence_177">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </If.Else>
+                </If>
+              </Sequence>
+              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="1423,84" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;panner&quot;+Planner]" />
+              <Switch x:TypeArguments="x:String" DisplayName="Switch opzegreden" Expression="[RedenOpzegging]" sap:VirtualizedContainerService.HintSize="1423,530" sap2010:WorkflowViewState.IdRef="Switch`1_15">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Assign x:Key="quality_qualityofcare" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_205">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[RedenOpzegging]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">Kwaliteit dienstverlening</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign x:Key="quality_location" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_206">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[RedenOpzegging]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">Kwaliteit locatie</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign x:Key="quality_employees" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_207">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[RedenOpzegging]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">Kwaliteit personeel</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign x:Key="quality_activities" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_208">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[RedenOpzegging]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">Kwaliteit activiteiten</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign x:Key="situation_work" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_209">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[RedenOpzegging]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">Situatie werk</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign x:Key="situation_relocation" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_210">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[RedenOpzegging]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">Verhuizing</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign x:Key="situation_independence" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_211">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[RedenOpzegging]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">Zelfstandigheid kind</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign x:Key="situation_doesnotwanttogo" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_212">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[RedenOpzegging]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">Kind wil niet meer naar de opvang</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign x:Key="cost_tooexpensive" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_213">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[RedenOpzegging]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">Opvang is te duur</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign x:Key="cost_cannotpay" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_214">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[RedenOpzegging]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">Kan de opvang niet meer betalen</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign x:Key="undisclosed" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_215">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[RedenOpzegging]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">Wil geen reden doorgeven</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign x:Key="other" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_216">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[RedenOpzegging]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">Overig</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign x:Key="quality_other" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_217">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[RedenOpzegging]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">Kwaliteit overig</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign x:Key="situation_other" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_218">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[RedenOpzegging]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">Overige situaties</InArgument>
+                  </Assign.Value>
+                </Assign>
+              </Switch>
+              <Switch x:TypeArguments="x:String" DisplayName="Switch bepaal taal" Expression="[Taal]" sap:VirtualizedContainerService.HintSize="1423,182" sap2010:WorkflowViewState.IdRef="Switch`1_16">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Assign x:Key="nl" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_219">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[Taal]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">Nederlands</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign x:Key="en" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_220">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[Taal]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">Engels</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign x:Key="pl" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_221">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[Taal]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">Pools</InArgument>
+                  </Assign.Value>
+                </Assign>
+              </Switch>
+              <Sequence DisplayName="Acties Kocon" sap:VirtualizedContainerService.HintSize="1423,2057" sap2010:WorkflowViewState.IdRef="Sequence_149">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Sequence DisplayName="Verwerk acties Kocon" sap:VirtualizedContainerService.HintSize="1381,1965" sap2010:WorkflowViewState.IdRef="Sequence_148">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Assign sap:VirtualizedContainerService.HintSize="1339,60" sap2010:WorkflowViewState.IdRef="Assign_351">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[RedenOpzegging]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">[JsonOut("ReasonOfTermination")("Reason").ToString]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[RedenOpzegging]" sap:VirtualizedContainerService.HintSize="1339,552" sap2010:WorkflowViewState.IdRef="Switch`1_25">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Assign x:Key="quality_qualityofcare" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_307">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[RedenOpzeggingKocon]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">01.</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign x:Key="quality_location" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_308">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[RedenOpzeggingKocon]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">02.</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign x:Key="quality_employees" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_309">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[RedenOpzeggingKocon]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">03.</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign x:Key="quality_activities" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_310">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[RedenOpzeggingKocon]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">04.</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign x:Key="situation_work" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_311">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[RedenOpzeggingKocon]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">05.</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign x:Key="situation_relocation" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_312">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[RedenOpzeggingKocon]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">06.</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign x:Key="situation_independence" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_313">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[RedenOpzeggingKocon]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">07.</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign x:Key="situation_doesnotwanttogo" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_314">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[RedenOpzeggingKocon]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">08.</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign x:Key="cost_tooexpensive" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_315">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[RedenOpzeggingKocon]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">09.</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign x:Key="cost_cannotpay" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_316">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[RedenOpzeggingKocon]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">10.</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign x:Key="undisclosed" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_317">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[RedenOpzeggingKocon]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">11.</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign x:Key="other" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_318">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[RedenOpzeggingKocon]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">12.</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign x:Key="quality_other" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_319">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[RedenOpzeggingKocon]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">12.</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign x:Key="situation_other" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_320">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[RedenOpzeggingKocon]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">12.</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign x:Key="cost_other" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_321">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[RedenOpzeggingKocon]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">12.</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                  </Switch>
+                  <Sequence DisplayName="Maak mailonderwerp" sap:VirtualizedContainerService.HintSize="1339,66" sap2010:WorkflowViewState.IdRef="Sequence_145">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="Resultaat" />
+                      <Variable x:TypeArguments="x:Int32" Name="i" />
+                      <Variable x:TypeArguments="x:String" Default="testtttttttt" Name="Omschrijving" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Assign DisplayName="Assign contactopnemen" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_322">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[Contactopnemen]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[Contactopnemen.tolower.Replace("yes","wel").Replace("no","geen")]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign DisplayName="Assign manier contact" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_323">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[ContactKeuze]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[ContactKeuze.Replace("telephone","telefoon")]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign DisplayName="Assign opmerking" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_324">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[Opmerking]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[opmerking.Replace(Environment.Newline,"")]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign DisplayName="Assign berichtopzegging" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_325">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[BerichtOpzegging]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[Berichtopzegging.Replace(Environment.Newline,"")]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                  </Sequence>
+                  <If Condition="[string.IsNullOrEmpty(Planner)]" DisplayName="If planner is niet bekend" sap:VirtualizedContainerService.HintSize="1339,1075" sap2010:WorkflowViewState.IdRef="If_30">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <If.Then>
+                      <Sequence sap:VirtualizedContainerService.HintSize="376,337" sap2010:WorkflowViewState.IdRef="Sequence_146">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Assign DisplayName="Assign mailonderwerp" sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_326">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:String">[MailOnderwerp]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:String">["Ouder met Debnr: "+Debnr+ " en Kind met KRN: "+KRN+" geplaatst op locatie: "+Locatie+". Willen per "+OpzegdatumDate+" alle opvang stopzetten. De reden is "+Redenopzegging+". Het volgende bericht werd meegegeven: "+BerichtOpzegging+". Er mag "+Contactopnemen+" contact opgenomen worden. Dit kan per "+ContactKeuze+". De ouder maakt de volgende opmerking: "+Opmerking+". Ouder speekt: "+Taal+" Ouder is bereikbaar op: "+EMail+" en/of "+TelefoonNummer+". De taak is doorgegeven via Mijn"+Label+" de stopzetting is niet verwerkt door de robot omdat de ingevoerde gegevens niet kloppen."]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="[MailOnderwerp+Environment.Newline+Environment.Newline+&quot;Planner niet herkend Smallsteps.&quot;]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="SendOutlookMail_27" Importance="Normal" IsBodyHtml="False" IsDraft="False" ReplyTo="[EMail]" Sensitivity="Normal" Subject="[&quot;Volledige opzegging aangevraagd door klant &quot;+Debnr]" To="planneronbekend@partou.nl">
+                          <ui:SendOutlookMail.Files>
+                            <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                          </ui:SendOutlookMail.Files>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </ui:SendOutlookMail>
+                      </Sequence>
+                    </If.Then>
+                    <If.Else>
+                      <Sequence sap:VirtualizedContainerService.HintSize="918,917" sap2010:WorkflowViewState.IdRef="Sequence_147">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="876,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_27" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Kocon Opzeggingen - API Kocon 33\Main.xaml">
+                          <ui:InvokeWorkflowFile.Arguments>
+                            <InArgument x:TypeArguments="x:String" x:Key="Debnr">[Debnr]</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="EindDatum">[OpzegDatumDate.Replace("-"," ")]</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="KRN">[KRN]</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="RedenOpzegging">[RedenOpzeggingKocon]</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="SoortOpvangBSO">Ja</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="SoortOpvangTSO">Ja</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="SoortOpvangVSO">Ja</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="SoortOpvangKDV">Ja</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="SoortOpvangVakantieOpvang">Ja</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Topdesknummer">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="TypeOpzegging" />
+                            <InArgument x:TypeArguments="x:String" x:Key="VerzoekDatum" />
+                            <InArgument x:TypeArguments="x:String" x:Key="MijnSite">[Label]</InArgument>
+                            <OutArgument x:TypeArguments="x:Boolean" x:Key="Meldingsuccesvol">[Meldingsuccesvol]</OutArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Opmerking">[Opmerking]</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="BerichtOpzegging">[BerichtOpzegging]</InArgument>
+                          </ui:InvokeWorkflowFile.Arguments>
+                        </ui:InvokeWorkflowFile>
+                        <Assign DisplayName="Assign mailonderwerp" sap:VirtualizedContainerService.HintSize="876,60" sap2010:WorkflowViewState.IdRef="Assign_327">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:String">[MailOnderwerp]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:String">["Ouder met Debnr: "+Debnr+ " en Kind met KRN: "+KRN+" geplaatst op locatie: "+Locatie+". Willen per "+OpzegdatumDate+" alle opvang stopzetten. De reden is "+Redenopzegging+". Het volgende bericht werd meegegeven: "+BerichtOpzegging+". Er mag "+Contactopnemen+" contact opgenomen worden. Dit kan per "+ContactKeuze+". De ouder maakt de volgende opmerking: "+Opmerking+". Ouder speekt: "+Taal+" Ouder is bereikbaar op: "+EMail+" en/of "+TelefoonNummer+". De taak is doorgegeven via Mijn"+Label]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="876,84" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[&quot;mailen&quot;+regio+MailOnderwerp]" />
+                        <If Condition="[Planner.Equals(&quot;Klantenservice&quot;)]" DisplayName="If planner is klantenservice" sap:VirtualizedContainerService.HintSize="876,449" sap2010:WorkflowViewState.IdRef="If_29">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <If.Then>
+                            <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="[MailOnderwerp+Environment.Newline+Environment.Newline+&quot;Je planner is &quot;+Planner]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="SendOutlookMail_28" Importance="Normal" IsBodyHtml="False" IsDraft="False" ReplyTo="[EMail]" Sensitivity="Normal" Subject="[&quot;Volledige opzegging aangevraagd door klant &quot;+Debnr]" To="klantenservice@Smallsteps.nl">
+                              <ui:SendOutlookMail.Files>
+                                <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                              </ui:SendOutlookMail.Files>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </ui:SendOutlookMail>
+                          </If.Then>
+                          <If.Else>
+                            <Switch x:TypeArguments="x:String" DisplayName="Switch regio's" Expression="[Regio]" sap:VirtualizedContainerService.HintSize="497,291" sap2010:WorkflowViewState.IdRef="Switch`1_26">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" x:Key="Amsterdam" Body="[MailOnderwerp+Environment.Newline+Environment.Newline+&quot;Je planner is &quot;+Planner]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="SendOutlookMail_29" Importance="Normal" IsBodyHtml="False" IsDraft="False" ReplyTo="[EMail]" Sensitivity="Normal" Subject="[&quot;Volledige opzegging aangevraagd door klant &quot;+Debnr]" To="amsterdam@Partou.nl">
+                                <ui:SendOutlookMail.Files>
+                                  <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                                </ui:SendOutlookMail.Files>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </ui:SendOutlookMail>
+                              <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" x:Key="Den Haag-Leiden" Body="[MailOnderwerp+Environment.Newline+Environment.Newline+&quot;Je planner is &quot;+Planner]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="SendOutlookMail_30" Importance="Normal" IsBodyHtml="False" IsDraft="False" ReplyTo="[EMail]" Sensitivity="Normal" Subject="[&quot;Volledige opzegging aangevraagd door klant &quot;+Debnr]" To="denhaag-leiden@Partou.nl">
+                                <ui:SendOutlookMail.Files>
+                                  <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                                </ui:SendOutlookMail.Files>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </ui:SendOutlookMail>
+                              <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" x:Key="Noord" Body="[MailOnderwerp+Environment.Newline+Environment.Newline+&quot;Je planner is &quot;+Planner]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="SendOutlookMail_31" Importance="Normal" IsBodyHtml="False" IsDraft="False" ReplyTo="[EMail]" Sensitivity="Normal" Subject="[&quot;Volledige opzegging aangevraagd door klant &quot;+Debnr]" To="noord@Partou.nl">
+                                <ui:SendOutlookMail.Files>
+                                  <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                                </ui:SendOutlookMail.Files>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </ui:SendOutlookMail>
+                              <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" x:Key="Noord Holland" Body="[MailOnderwerp+Environment.Newline+Environment.Newline+&quot;Je planner is &quot;+Planner]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="SendOutlookMail_32" Importance="Normal" IsBodyHtml="False" IsDraft="False" ReplyTo="[EMail]" Sensitivity="Normal" Subject="[&quot;Volledige opzegging aangevraagd door klant &quot;+Debnr]" To="noordholland@Partou.nl">
+                                <ui:SendOutlookMail.Files>
+                                  <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                                </ui:SendOutlookMail.Files>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </ui:SendOutlookMail>
+                              <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" x:Key="Oost" Body="[MailOnderwerp+Environment.Newline+Environment.Newline+&quot;Je planner is &quot;+Planner]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="SendOutlookMail_33" Importance="Normal" IsBodyHtml="False" IsDraft="False" ReplyTo="[EMail]" Sensitivity="Normal" Subject="[&quot;Volledige opzegging aangevraagd door klant &quot;+Debnr]" To="middenoost@Partou.nl">
+                                <ui:SendOutlookMail.Files>
+                                  <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                                </ui:SendOutlookMail.Files>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </ui:SendOutlookMail>
+                              <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" x:Key="Rotterdam e.o." Body="[MailOnderwerp+Environment.Newline+Environment.Newline+&quot;Je planner is &quot;+Planner]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="SendOutlookMail_34" Importance="Normal" IsBodyHtml="False" IsDraft="False" ReplyTo="[EMail]" Sensitivity="Normal" Subject="[&quot;Volledige opzegging aangevraagd door klant &quot;+Debnr]" To="rotterdam@Partou.nl">
+                                <ui:SendOutlookMail.Files>
+                                  <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                                </ui:SendOutlookMail.Files>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </ui:SendOutlookMail>
+                              <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" x:Key="Utrecht e.o." Body="[MailOnderwerp+Environment.Newline+Environment.Newline+&quot;Je planner is &quot;+Planner]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="SendOutlookMail_35" Importance="Normal" IsBodyHtml="False" IsDraft="False" ReplyTo="[EMail]" Sensitivity="Normal" Subject="[&quot;Volledige opzegging aangevraagd door klant &quot;+Debnr]" To="utrecht@Partou.nl">
+                                <ui:SendOutlookMail.Files>
+                                  <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                                </ui:SendOutlookMail.Files>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </ui:SendOutlookMail>
+                              <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" x:Key="Zuid" Body="[MailOnderwerp+Environment.Newline+Environment.Newline+&quot;Je planner is &quot;+Planner]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="SendOutlookMail_36" Importance="Normal" IsBodyHtml="False" IsDraft="False" ReplyTo="[EMail]" Sensitivity="Normal" Subject="[&quot;Volledige opzegging aangevraagd door klant &quot;+Debnr]" To="zuid@Partou.nl">
+                                <ui:SendOutlookMail.Files>
+                                  <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                                </ui:SendOutlookMail.Files>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </ui:SendOutlookMail>
+                            </Switch>
+                          </If.Else>
+                        </If>
+                      </Sequence>
+                    </If.Else>
+                  </If>
+                </Sequence>
+              </Sequence>
+            </Sequence>
+          </If.Else>
+        </If>
+      </Sequence>
+    </Sequence>
+    <TryCatch DisplayName="Try Catch verwerk Topdesk" sap:VirtualizedContainerService.HintSize="438,309" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <TryCatch.Catches>
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,21" sap2010:WorkflowViewState.IdRef="Catch`1_4">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ActivityAction x:TypeArguments="s:Exception">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+            </ActivityAction.Argument>
+            <Sequence sap:VirtualizedContainerService.HintSize="304,149" sap2010:WorkflowViewState.IdRef="Sequence_142">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_305">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:Boolean">[TopdeskDown]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                </Assign.Value>
+              </Assign>
+            </Sequence>
+          </ActivityAction>
+        </Catch>
+        <Catch x:TypeArguments="s:NotSupportedException" sap:VirtualizedContainerService.HintSize="404,21" sap2010:WorkflowViewState.IdRef="Catch`1_5">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ActivityAction x:TypeArguments="s:NotSupportedException">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="s:NotSupportedException" Name="exception" />
+            </ActivityAction.Argument>
+            <Sequence sap:VirtualizedContainerService.HintSize="376,245" sap2010:WorkflowViewState.IdRef="Sequence_143">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Error" Message="[exception.Message]" />
+              <Rethrow sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Rethrow_2" />
+            </Sequence>
+          </ActivityAction>
+        </Catch>
+      </TryCatch.Catches>
+    </TryCatch>
+  </Sequence>
+</Activity>

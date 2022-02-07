@@ -1,0 +1,683 @@
+﻿Administratie;Kpl;Naam locatie;Dienst;Regio;Planner;LRKP;Locatiemanager
+033;210201;Wip Wap KOV;KDV;Noord;Laura Steggink;955862668;Karin Slijkhuis - Steen
+033;210601;Dikkertje Dap KOV;KDV;Noord;Laura Steggink;802538563;Henriette de Wal
+033;210602;Jippo BSO;BSO;Noord;Laura Steggink;137861886;Henriette de Wal
+033;211501;De Schelleboom KOV;KDV;Noord;Laura Steggink;288280994;Bianca Mafait
+033;211502;De Boomkikker BSO;BSO;Noord;Laura Steggink;228066852;Bianca Mafait
+033;212502;Regenboog Drachten BSO;BSO;Noord;Laura Steggink;205799644;Miranda Gosma
+033;212511;Regenboog Drachten KOV;KDV;Noord;Laura Steggink;897954014;Miranda Gosma
+033;212512;Regenboog BSO dependance;BSO;Noord;Laura Steggink;329303211;Miranda Gosma
+033;212701;De Wetterblom KOV;KDV;Noord;Laura Steggink;229071569;Monique Koot
+033;212702;Wirrewar BSO;BSO;Noord;Laura Steggink;164329687;Monique Koot
+033;212801;De Tovervis KOV;KDV;Noord;Laura Steggink;166381883;Janine Lankhorst
+033;212802;Schip Ahoy BSO;BSO;Noord;Laura Steggink;424491047;Janine Lankhorst
+033;213001;Pompeloen KOV;KDV;Noord;Laura Steggink;481361194;Manja Mulder
+033;213201;Tante Toos KOV;KDV;Noord;Laura Steggink;152099657;Bianca Douma
+033;213202;Tante Toos BSO;BSO;Noord;Laura Steggink;937658169;Bianca Douma
+033;213401;Babbelbos KOV;KDV;Noord;Laura Steggink;857060430;Linda Spruijt
+033;213402;Boomhut BSO;BSO;Noord;Laura Steggink;170485250;Linda Spruijt
+033;213501;Kiekus KOV;KDV;Noord;Laura Steggink;144347696;Bianca Douma
+033;213502;Kiekus BSO;BSO;Noord;Laura Steggink;245571218;Bianca Douma
+033;214502;SpeelKasteel BSO;BSO;Noord;Chantal van Schaijk;156200119;Renske Plantinga - Deinum
+033;214503;TSO Het SpeelKasteel;TSO;Noord;Chantal van Schaijk;;Renske Plantinga-Deinum
+033;214701;Schateiland KOV;KDV;Noord;Laura Steggink;225713007;Wendy Woltjer
+033;214702;Schateiland BSO;BSO;Noord;Laura Steggink;217607561;Wendy Woltjer
+033;216001;Kyckert KOV;KDV;Rotterdam e.o.;Anne-Fleur Lehman;979712671;Linsey van der Kraan
+033;216002;Kyckert BSO;BSO;Rotterdam e.o.;Anne-Fleur Lehman;578463088;Linsey van der Kraan
+033;216003;TSO Kyckert;TSO;Zuid;Marjolein Beuvink;;Wendy van Raamsdonk
+033;216601;Westhof KOV;KDV;Rotterdam e.o.;Anne-Fleur Lehman;486019810;Nelleke Elema
+033;216602;Westhof BSO;BSO;Rotterdam e.o.;Anne-Fleur Lehman;869474145;Nelleke Elema
+033;218201;'t Speelparadijs KOV;KDV;Noord;Laura Steggink;110542393;Saskia Dijkhuis
+033;218202;'t Speelparadijs BSO;BSO;Noord;Laura Steggink;178634141;Saskia Dijkhuis
+033;218203;'t Speelparadijs TSO;TSO;Noord;;;Saskia Dijkhuis
+033;218301;'t Speelhoukje KOV;KDV;Noord;Laura Steggink;166148210;Saskia Dijkhuis
+033;218302;'t Speelhoukje BSO;BSO;Noord;Laura Steggink;234387221;Saskia Dijkhuis
+033;220401;Margriet KOV;KDV;Rotterdam e.o.;Anne-Fleur Lehman;913208796;Martha de Haan- Vermeulen
+033;220402;Klaverstraat BSO;BSO;Rotterdam e.o.;Anne-Fleur Lehman;140841635;Martha de Haan
+033;220701;Millinxparkhuis KOV;KDV;Rotterdam e.o.;Anne-Fleur Lehman;149659441;Martha de Haan- Vermeulen
+033;220702;Millinxparkhuis BSO;BSO;Rotterdam e.o.;Anne-Fleur Lehman;182082039;Martha de Haan- Vermeulen
+033;221502;De Klaver BSO;BSO;Rotterdam e.o.;Anne-Fleur Lehman;172351674;Martha de Haan- Vermeulen
+033;222001;Dr. De Visserstraat KOV;KDV;Rotterdam e.o.;Marjolein Beuvink;102797869;Joyce van der Plaat
+033;222002;Dr. de Visserstraat BSO;BSO;Rotterdam e.o.;Marjolein Beuvink;111505859;Joyce van der Plaat
+033;222201;Kadoze Kaduize KOV;KDV;Rotterdam e.o.;Marjolein Beuvink;144387827;Miriam Post
+033;222202;Kadoze Kaduize BSO;BSO;Utrecht e.o.;Tosha Vollebregt;720388028;Miriam Post
+033;222601;De Zeppelin KOV;KDV;Rotterdam e.o.;Anne-Fleur Lehman;336643081;Nelleke Sperling - Voogd
+033;222602;De Zeppelin BSO;BSO;Rotterdam e.o.;Anne-Fleur Lehman;894969791;Nelleke Sperling - Voogd
+033;223001;De Nieuwe Nachtegaal KOV;KDV;Rotterdam e.o.;Anne-Fleur Lehman;607706673;Mandy Hoogwerf
+033;223002;De Nieuwe Nachtegaal BSO;BSO;Rotterdam e.o.;Anne-Fleur Lehman;128404814;Mandy Hoogwerf
+033;223301;Poortugaal KOV;KDV;Rotterdam e.o.;Anne-Fleur Lehman;418295876;Renata Heezen
+033;223302;Poortugaal BSO;BSO;Rotterdam e.o.;Anne-Fleur Lehman;175387059;Renata Heezen
+033;223303;Poortugaal TSO;TSO;Rotterdam e.o.;Marjolein Beuvink;;Renata Heezen
+033;223502;Splash BSO;BSO;Rotterdam e.o.;Marjolein Beuvink;217375327;Miriam Post
+033;224701;Bockesprong KOV;KDV;Amsterdam;Malina Misnar - Tomas;127835179;Svetlana Skulj - Zivkovic
+033;224702;Bockesprong BSO;BSO;Amsterdam;Malina Misnar - Tomas;153241871;Svetlana Skulj - Zivkovic
+033;225302;De Kinkerbuurt BSO;BSO;Amsterdam;Özlem Hanli;160074046;Faby-Anne Spekman
+033;225902;Hygiëaplein 51 BSO;BSO;Amsterdam;Esther Wijnand;105828622;Rolien Hollemans
+033;226123;TSO Wespennest*;TSO;Amsterdam;;;Wiep van Maanen
+033;226502;Iduna BSO;BSO;Amsterdam;Malina Misnar - Tomas;192417782;Jurre Zwagemakers
+033;229301;De Speeltoren KOV;KDV;Amsterdam;Malina Misnar - Tomas;199098906;Zinzi Hoogendijk
+033;229401;De Gouden Koets KOV;KDV;Amsterdam;Samantha Evers;557489945;Samira Jacobsen
+033;229501;Doenja KOV;KDV;Amsterdam;Esther Wijnand;490021281;Manon Smit
+033;229701;Bilderdijk Kids KOV;KDV;Amsterdam;Malina Misnar - Tomas;196183996;Romande Fraser
+033;229801;Tante KaTuin KOV;KDV;Amsterdam;Samantha Evers;450234769;Faby-Anne Spekman
+033;229802;Tante KaTuin BSO;BSO;Amsterdam;Samantha Evers;167893725;Faby-Anne Spekman
+033;229901;Vondelpark KOV;KDV;Amsterdam;Malina Misnar - Tomas;219408725;Sanne van den Eijnde
+033;229902;Vondelpark BSO;BSO;Amsterdam;Malina Misnar - Tomas;304847690;Sanne van den Eijnde
+033;230301;'t Kwetternest KOV;KDV;Midden Oost;Zehra van Tienderen;609960490;Jessica Rattink
+033;230501;De Broekies KOV;KDV;Zuid;Britt te Koppele;907841430;Marjolein Vermei
+033;230502;Fun4Kids BSO;BSO;Zuid;Britt te Koppele;853859188;Marjolein Vermei
+033;230801;Bi-Ba-Bommel KOV;KDV;Zuid;Madeleine van Tiel;302530848;Jessica Hol - Driessen
+033;230812;Kids Campus BSO;BSO;Zuid;Madeleine van Tiel;203198402;Jessica Hol - Driessen
+033;230813;De Leiboom TSO;TSO;Zuid;Madeleine van Tiel;;Jessica Hol - Driessen
+033;230815;Paddestoel POV;KDV;Zuid;Madeleine van Tiel;186071127;Jessica Hol-Driessen
+033;230823;De Spelwert TSO;TSO;Zuid;Madeleine van Tiel;;Jessica Hol - Driessen
+033;231001;Boefjes KOV;KDV;Zuid;Britt te Koppele;239817047;Shanika Hofland
+033;231002;Boefjes BSO;BSO;Zuid;Britt te Koppele;220457566;Shanika Hofland
+033;231013;TSO Roald Dahl;TSO;Zuid;Martine de Vries;;Femke van der Starre
+033;233302;De Oversteek BSO;BSO;Zuid;Madeleine van Tiel;214041803;Jessica Hol - Driessen
+033;233601;Kloosterke KOV;KDV;Zuid;Tara Luesink;137480982;Riwka Berg- Beekhuis
+033;233602;Kloosterke BSO;BSO;Zuid;Tara Luesink;289855378;Riwka Berg- Beekhuis
+033;234801;Cranevelt KOV;KDV;Zuid;Tara Luesink;227116859;Anouk Janssen
+033;235401;Kings&Queens POV;KDV;Amsterdam;Malina Misnar - Tomas;138163947;Kris Raktoe
+033;235402;Kings&Queens BSO;BSO;Amsterdam;Malina Misnar - Tomas;207581459;Kris Raktoe
+033;238001;Olle KOV;KDV;Utrecht e.o.;Karlijn Olthof;106685351;Wendy Breed
+033;238012;Olle BSO;BSO;Utrecht e.o.;Karlijn Olthof;228533909;Wendy Breed
+033;238201;'t Kasteeltje KOV;KDV;Utrecht e.o.;Karlijn Olthof;128397378;Marsja Hanstede
+033;238202;'t Kasteeltje BSO;BSO;Utrecht e.o.;Karlijn Olthof;142799889;Marsja Hanstede
+033;238302;Olle's Clubhuis BSO;BSO;Utrecht e.o.;Karlijn Olthof;216441845;Wendy Breed
+033;238901;Villa Sproet KOV;KDV;Midden Oost;Karin Post;220205309;Willeke Bijl
+033;239502;Villa Actief BSO;BSO;Midden Oost;Karin Post;213154225;Willeke Bijl
+033;239801;Tante Kootje KOV;KDV;Zuid;Britt te Koppele;234254087;Jessica van Herwaarden
+033;239802;Tante Kootje BSO;BSO;Zuid;Britt te Koppele;764110391;Jessica van Herwaarden
+033;240501;De Petteflat KOV;KDV;Rotterdam e.o.;Marjolein Beuvink;588919056;Mandy Bartels - de Jong
+033;240601;Toverkruid KOV;KDV;Amsterdam;Samantha Evers;672596532;Ramona Berkel
+033;241202;Ridderzaal BSO;BSO;Utrecht e.o.;Karlijn Olthof;460704904;Larissa Snel - van Helmond
+033;241401;Sweelincklaan 32 KOV;KDV;Den Haag-Leiden;Loretta Vos;921748590;Claudia Mosis
+033;241422;Sweelincklaan BSO;BSO;Den Haag-Leiden;Loretta Vos;308323233;Claudia Mosis
+033;241701;De Tovertuin KOV;KDV;Rotterdam e.o.;Marjolein Beuvink;789027641;Cristina Mokkenstorm
+033;241702;De Vlindertuin BSO;BSO;Rotterdam e.o.;Marjolein Beuvink;917857719;Cristina Mokkenstorm - Castele
+033;241801;Basja KOV;KDV;Amsterdam;Malina Misnar - Tomas;803871594;Esther Palmen
+033;241901;Ratjetoe KOV;KDV;Rotterdam e.o.;Marjolein Beuvink;160650082;Daphne Bal
+033;241902;Ratjetoe BSO;BSO;Rotterdam e.o.;Marjolein Beuvink;716170632;Daphne Bal
+033;242102;Bikkels BSO;BSO;Rotterdam e.o.;Marjolein Beuvink;139191902;Manon 't Zand - Kalter
+033;242201;Binnenhof KOV;KDV;Utrecht e.o.;Karlijn Olthof;203573328;Larissa Snel - van Helmond
+033;242701;Dolleboel KOV;KDV;Rotterdam e.o.;Wendy Severs;500664481;Jordi van der Kaden
+033;242702;Dolleboel BSO;BSO;Rotterdam e.o.;Wendy Severs;230582709;Jordi van der Kaden
+033;242801;Ziezo KOV;KDV;Den Haag-Leiden;Ada van den Beld;689640018;Ester Jansen van Rosendaal
+033;242802;Pret-Enzo BSO;BSO;Den Haag-Leiden;Ada van den Beld;876190426;Ester Jansen van Rosendaal
+033;243401;Dokus KOV;KDV;Rotterdam e.o.;Anne-Fleur Lehman;166069528;Anniek de Kok - Feijge
+033;243402;Dokus BSO;BSO;Rotterdam e.o.;Anne-Fleur Lehman;103458876;Anniek de Kok - Feijge
+033;243802;De Buren BSO;BSO;Den Haag-Leiden;Sylvia Weernink;123858422;Sabine Lemmers
+033;243901;Groeneweg KOV;KDV;Rotterdam e.o.;Marjolein Beuvink;248697389;Jentl de Vroom - Vrolijk
+033;243902;Groeneweg BSO;BSO;Rotterdam e.o.;Marjolein Beuvink;897663792;Jentl de Vroom - Vrolijk
+033;244702;Bloemerd BSO;BSO;Den Haag-Leiden;Sylvia Weernink;198110625;Nicole Gerritsen
+033;244901;Twins KOV;KDV;Den Haag-Leiden;Miranda Snijders;182396733;Johanneke de Nooijer
+033;245202;De Carrousel BSO;BSO;Amsterdam;Esther Wijnand;192661073;Jurre Zwagemakers
+033;245701;'t Sparrenest KOV;KDV;Amsterdam;Samantha Evers;389795525;Yasmin Schuster
+033;246302;Tante An BSO;BSO;Den Haag-Leiden;Miranda Snijders;224609774;Diana van der Zwan
+033;247502;Amigos BSO;BSO;Amsterdam;Malina Misnar - Tomas;434234291;Brian Bos
+033;247503;Nellestein TSO;TSO;Amsterdam;;;Brian Bos
+033;247503;TSO Nellestein 2;TSO;Amsterdam;;;Diane Enthoven
+033;248101;Liedjesland KOV;KDV;Noord;Debbie Platenkamp;175580959;Ilja Guldemond
+033;248102;Liedjesland BSO;BSO;Noord;Debbie Platenkamp;385549192;Ilja Guldemond
+033;248103;Syncope TSO;TSO;Noord;Annet Rogoz- Gommers;;Jacoline Kidane-Damhof
+033;248401;Muziektuin KOV;KDV;Noord;Debbie Platenkamp;320438399;Nicky van den Berg
+033;248402;Muziektuin BSO;BSO;Noord;Debbie Platenkamp;165320321;Nicky van den Berg
+033;249401;De Posterij KOV;KDV;Den Haag-Leiden;Loretta Vos;159539158;Eva Smiet
+033;249402;Posterij BSO;BSO;Utrecht e.o.;Tosha Vollebregt;102335679;Frony te Winkel
+033;249412;De Posterij Dependance BSO;BSO;Den Haag-Leiden;Loretta Vos;976309531;Eva Smiet
+033;249901;Aan de Amstel KOV;KDV;Noord Holland;Özlem Hanli;112340428;Christine Hoogstraten
+033;249902;Aan de Amstel BSO;BSO;Noord Holland;Özlem Hanli;298369758;Christine Hoogstraten
+033;250002;Klaverblad BSO;BSO;Amsterdam;Malina Misnar - Tomas;432294077;Romande Fraser
+033;250101;De Schothorst KOV;KDV;Midden Oost;Leanne Giebels;396010374;Ruud Kroeze
+033;250102;Kids en Zo BSO;BSO;Midden Oost;Leanne Giebels;131406164;Ruud Kroeze
+033;250112;Ondersteboven BSO;BSO;Midden Oost;Leanne Giebels;184376555;Ruud Kroeze
+033;250122;De Spetters BSO;BSO;Midden Oost;Leanne Giebels;236759565;Ruud Kroeze
+033;250201;De Vlinder KOV;KDV;Midden Oost;Shannon van der Gaag;174030022;Anna van Dijk
+033;250202;De Vlinder BSO;BSO;Midden Oost;Shannon van der Gaag;222853621;Anna van Dijk
+033;250401;De Carrousel KOV;KDV;Midden Oost;Esther Koek;225200892;Mariëlle Woesthuis
+033;250402;De Carrousel BSO;BSO;Midden Oost;Esther Koek;352612745;Mariëlle Woesthuis
+033;250801;Thijlaan KOV;KDV;Midden Oost;Esther Koek;269109675;Marieke Koehorst
+033;250802;Thijlaan BSO;BSO;Midden Oost;Esther Koek;707384989;Marieke Koehorst
+033;251701;Serpentine KOV;KDV;Midden Oost;Shannon van der Gaag;596847373;Sjoerdtsje van Dijk
+033;251702;Serpentine BSO;BSO;Midden Oost;Shannon van der Gaag;665561945;Sjoerdtsje van Dijk
+033;251722;Serpentine Europaschool BSO;BSO;Midden Oost;Shannon van der Gaag;224643927;Sjoerdtsje van Dijk
+033;251802;Notekrakers BSO;BSO;Midden Oost;Leanne Giebels;628315053;Natasja van Polen
+033;253301;Nijbroek POV;KDV;Midden Oost;Zehra van Tienderen;232212983;Justine Mellegers
+033;253302;Nijbroek BSO;BSO;Midden Oost;Zehra van Tienderen;962409716;Justine Mellegers
+033;253701;Het Erfje KOV;KDV;Midden Oost;Karin Post;138431164;Justine Mellegers
+033;253702;Het Erf BSO;BSO;Midden Oost;Karin Post;460117695;Justine Mellegers
+033;253801;De Toverhoed Noord KOV;KDV;Zuid;Britt te Koppele;936617779;Ri-Jan Houden
+033;253802;De Toverhoed Noord BSO;BSO;Zuid;Britt te Koppele;829345887;Ri-Jan Houden
+033;253805;'t Grumke Toverhoed Noord POV;KDV;Zuid;Britt te Koppele;936617779;Ri-Jan Houden
+033;253901;Zuiderster KOV;KDV;Zuid;Britt te Koppele;870182614;Femke Merks
+033;253903;TSO Bossche Broek Zuid;TSO;Zuid;Martine de Vries;855015421;Femke Merks
+033;253905;Ollie Toverhoed Zuid;KDV;Zuid;Martine de Vries;870182614;Femke Merks
+033;253912;Zuiderster dependance;BSO;Zuid;Britt te Koppele;863520340;Femke Merks
+033;253915;Zuiderster POV;KDV;Zuid;Britt te Koppele;151412613;Femke Merks
+033;253922;Zuiderster St Jan BSO;BSO;Zuid;Britt te Koppele;940725873;Femke Merks
+033;253932;Zuiderster BSO;BSO;Zuid;Britt te Koppele;329360048;Femke Merks
+033;254001;Eigenwijs KOV;KDV;Midden Oost;Karin Post;196153207;Jildou Dijkstra
+033;254102;Buitenspel BSO;BSO;Midden Oost;Karin Post;194543936;Jildou Dijkstra
+033;254112;Lijsterstraat BSO;BSO;Midden Oost;Karin Post;215086557;Jildou Dijkstra
+033;257201;De Luchtballon KOV;KDV;Utrecht e.o.;Karlijn Olthof;155291762;Jaime van Hemessen
+033;257701;Villa Parijsch KOV;KDV;Zuid;Madeleine van Tiel;889524580;Karin de Groot
+033;257702;Villa Parijsch BSO;BSO;Zuid;Madeleine van Tiel;107634776;Karin de Groot
+033;257801;Hoppetossa KOV;KDV;Utrecht e.o.;Karlijn Olthof;116505606;Lina Michalakopoulou
+033;258002;Villa Spetter BSO;BSO;Zuid;Madeleine van Tiel;893512680;Wendy Breed
+033;258201;Beestenboel KOV;KDV;Rotterdam e.o.;Anne-Fleur Lehman;189799134;Aletta Buurman - van Opstal
+033;258202;Beestenboel BSO;BSO;Rotterdam e.o.;Anne-Fleur Lehman;232678236;Aletta Buurman - van Opstal
+033;258301;KoetjeBoe KOV;KDV;Midden Oost;Shannon van der Gaag;276197355;Carin Oolbekkink
+033;258401;De Speeldoos KOV;KDV;Midden Oost;Karin Post;173077638;Yvonne Siccama
+033;258402;De Speeldoos BSO;BSO;Midden Oost;Karin Post;744076341;Yvonne Siccama
+033;258412;De Reiger BSO;BSO;Midden Oost;Karin Post;232810114;Yvonne Siccama
+033;258601;Lageweg KOV;KDV;Midden Oost;Esther Koek;161969665;Jolanda Gimberg
+033;258602;Lageweg BSO;BSO;Midden Oost;Esther Koek;895302597;Jolanda Gimberg
+033;258701;Quality Kids KOV;KDV;Zuid;Britt te Koppele;160051277;Ri-Jan Houden
+033;258901;De Kinderboot KOV;KDV;Utrecht e.o.;Karlijn Olthof;192080647;Saskia Kalk-Versteeg
+033;259001;De Kameleon KOV;KDV;Utrecht e.o.;Karlijn Olthof;111177340;Angelique Huijgens - De Jong
+033;259002;De Kameleon BSO;BSO;Utrecht e.o.;Karlijn Olthof;232201110;Angelique Huijgens - De Jong
+033;259501;Boerenbende KOV;KDV;Zuid;Britt te Koppele;172132411;Mirelle de Kruiff
+033;259502;Boerenbende BSO;BSO;Zuid;Britt te Koppele;589014614;Mirelle de Kruiff
+033;259601;Het Kinderspeelkasteel KOV;KDV;Zuid;Britt te Koppele;149180937;Matthijs Verkuijl
+033;259602;Kinderspeelkafee BSO;BSO;Zuid;Britt te Koppele;153739769;Matthijs Verkuijl
+033;259605;Het Kinderspeelkasteel POV;KDV;Zuid;Britt te Koppele;149180937;Matthijs Verkuijl
+033;259702;Kindersportfort BSO;BSO;Zuid;Britt te Koppele;230812375;Eva Nahumury
+033;260401;Woolde KOV;KDV;Midden Oost;Leanne Giebels;927142624;Natasja van Polen
+033;260402;Woolde BSO;BSO;Noord;Jeffrey ter Harmsel;208694109;Monique Kas-Wilbrink
+033;260412;Woolde BSO;BSO;Midden Oost;Leanne Giebels;985752075;Natasja van Polen
+033;261002;'t Kwakersgat BSO;BSO;Midden Oost;Zehra van Tienderen;205606337;Justine Mellegers
+033;261102;Sport & Spel BSO;BSO;Rotterdam e.o.;Anne-Fleur Lehman;160075816;Anniek de Kok - Feijge
+033;261202;Bombarie BSO;BSO;Rotterdam e.o.;Anne-Fleur Lehman;439058892;Anniek de Kok - Feijge
+033;261502;Passiebloemweg BSO;BSO;1.;Tosha Vollebregt;161257070;Nienke de Vries
+033;261801;Mauritslaan KOV;KDV;Den Haag-Leiden;Ada van den Beld;146140345;Marion ter Stege - Goedhart
+033;261802;Mauritslaan BSO;BSO;Den Haag-Leiden;Ada van den Beld;837275647;Marion ter Stege - Goedhart
+033;261902;De Kajuit BSO;BSO;Midden Oost;Zehra van Tienderen;442516708;Justine Mellegers
+033;262102;Toversport BSO;BSO;Amsterdam;Samantha Evers;628581233;Brian Bos
+033;262201;De Polbeek KOV;KDV;Midden Oost;Shannon van der Gaag;173465080;Jolyn van Egmond
+033;262202;De Polbeek BSO;BSO;Midden Oost;Shannon van der Gaag;332248355;Jolyn van Egmond
+033;262302;De Bosmuis BSO;BSO;Midden Oost;Shannon van der Gaag;179379100;Jolyn van Egmond
+033;262501;Laarstraat POV;KDV;Midden Oost;Shannon van der Gaag;203448728;Sjoerdtsje van Dijk
+033;262502;Laarstraat BSO;BSO;Midden Oost;Shannon van der Gaag;695937765;Carin Oolbekkink
+033;262601;Hoograven KOV;KDV;Utrecht e.o.;Karlijn Olthof;926633648;Lina Michalakopoulou
+033;262602;Hoograven BSO;BSO;Utrecht e.o.;Karlijn Olthof;337728240;Lina Michalakopoulou
+033;262701;Koppestok KOV;KDV;Utrecht e.o.;Karlijn Olthof;298554598;Nathalie van Beusekom-Velder
+033;262702;Koppestok BSO;BSO;Utrecht e.o.;Karlijn Olthof;162343929;Nathalie van Beusekom-Velder
+033;263002;De Fliert BSO;BSO;Midden Oost;Zehra van Tienderen;132532797;Justine Mellegers
+033;263005;De Fliertjes POV;KDV;Midden Oost;Zehra van Tienderen;110765254;Justine Mellegers
+033;310101;Peuterpalet KOV;KDV;Den Haag-Leiden;Miranda Snijders;192323660;Willeke de Jong
+033;310401;Compagnon KOV;KDV;Den Haag-Leiden;Miranda Snijders;118230608;Monique van Baardwijk
+033;310402;Compagnon BSO;BSO;Den Haag-Leiden;Miranda Snijders;101030794;Monique van Baardwijk
+033;310501;Draaimolen KOV;KDV;Den Haag-Leiden;Miranda Snijders;187866806;Diana van der Zwan
+033;310502;Draaimolen BSO;BSO;Den Haag-Leiden;Miranda Snijders;109737477;Diana van der Zwan
+033;310512;Reuzenrad BSO;BSO;Den Haag-Leiden;Miranda Snijders;925224339;Diana van der Zwan
+033;310601;Krullevaar KOV;KDV;Den Haag-Leiden;Miranda Snijders;490975331;Johanneke de Nooijer
+033;310701;Petteflet KOV;KDV;Den Haag-Leiden;Miranda Snijders;477090576;Henriette van de Haterd
+033;311101;Konijn KOV;KDV;Den Haag-Leiden;Miranda Snijders;426617101;Esther Scharn
+033;311102;Konijn BSO;BSO;Den Haag-Leiden;Miranda Snijders;199913523;Esther Scharn
+033;311201;Grote Beer (Leiden) KOV;KDV;Den Haag-Leiden;Loretta Vos;183484654;Annemieke Constandse
+033;311301;Kleine Beer (Leiden) KOV;KDV;Den Haag-Leiden;Miranda Snijders;710568733;Francis Langereis
+033;311302;Schatkist BSO;BSO;Den Haag-Leiden;Miranda Snijders;185840437;Francis Langereis
+033;311601;Bengel KOV;KDV;Den Haag-Leiden;Loretta Vos;496156433;Sissi Boekee-van Delft
+033;311602;Bengel BSO;BSO;Den Haag-Leiden;Loretta Vos;190474312;Sissi Boekee-van Delft
+033;311801;Langhors KOV;KDV;Den Haag-Leiden;Miranda Snijders;159225541;Jolanda Hoogeveen
+033;311901;Duinrakkers KOV;KDV;Den Haag-Leiden;Ada van den Beld;216009388;Leonie Janssen
+033;311902;Duinrakkers BSO;BSO;Den Haag-Leiden;Ada van den Beld;946050004;Leonie Janssen
+033;312001;Arcade KOV;KDV;Den Haag-Leiden;Loretta Vos;810887940;Kelly Mulder
+033;312002;Arcade BSO;BSO;Den Haag-Leiden;Loretta Vos;144381175;Kelly Mulder
+033;312301;Ooievaarsnest KOV;KDV;Den Haag-Leiden;Ada van den Beld;721330150;Monique Blom - van de Voort
+033;312302;Ooievaarsnest BSO;BSO;Den Haag-Leiden;Ada van den Beld;176668275;Monique Blom
+033;312305;De Woezel POV;KDV;Den Haag-Leiden;Ilse Scheepens;199003920;Monique Blom- van de Voort
+033;312333;Buitenplaats TSO;TSO;Den Haag-Leiden;;;Monique Blom
+033;312333;TSO Buitenplaats 2;TSO;Den Haag-Leiden;;;Monique Blom
+033;312401;Kinderdreef KOV;KDV;Den Haag-Leiden;Ada van den Beld;142805117;Marilisa Warmenhoven
+033;312501;Tovertuin KOV;KDV;Den Haag-Leiden;Ada van den Beld;137439210;Marilisa Warmenhoven
+033;312601;Bolderberg KOV;KDV;Den Haag-Leiden;Ilse Scheepens;203371525;Desiree Mense
+033;312602;Bolderberg BSO;BSO;Den Haag-Leiden;Ilse Scheepens;561425310;Desiree Mense
+033;312701;Tante Til KOV;KDV;Noord Holland;Özlem Hanli;164487384;Celeste Jongejans
+033;312702;Tante Til BSO;BSO;Noord Holland;Özlem Hanli;148288546;Celeste Jongejans
+033;312801;Otje KOV;KDV;Noord Holland;Özlem Hanli;145007078;Mirjam van der Linden - Bontek
+033;312802;Otje BSO;BSO;Noord Holland;Özlem Hanli;110572282;Mirjam van der Linden - Bontek
+033;313001;Zevensprong (Badhoevendorp) KOV;KDV;Noord Holland;Sylvia Weernink;503632818;Marijke Bink
+033;313002;Zevensprong (Badhoevendorp) BSO;BSO;Noord Holland;Sylvia Weernink;100691924;Marijke Bink
+033;313302;Basisbende BSO Bakboord;BSO;Den Haag-Leiden;Miranda Snijders;655078356;Jet Kortekaas
+033;313312;Basisbende BSO Lorentzschool;BSO;Den Haag-Leiden;Miranda Snijders;117845334;Jet Kortekaas
+033;313322;Basisbende BSO Stuurboord;BSO;Den Haag-Leiden;Miranda Snijders;722392771;Jet Kortekaas
+033;313602;Pollewop BSO;BSO;Den Haag-Leiden;Sylvia Weernink;132120094;Mark van Diemen
+033;313801;Stevenshof KOV;KDV;Den Haag-Leiden;Loretta Vos;838893533;Marijn de Wilde
+033;313802;Stevenshof BSO;BSO;Den Haag-Leiden;Loretta Vos;145571385;Marijn de Wilde
+033;313902;Toppers BSO;BSO;Den Haag-Leiden;Loretta Vos;194451690;Angelique van der Geest
+033;314002;Runners BSO;BSO;Den Haag-Leiden;Mathilde Sleeuwenhoek;164453726;Michael Oosterbaan
+033;314302;Kasteel BSO;BSO;Den Haag-Leiden;Loretta Vos;630315036;Angelique van der Geest
+033;314402;Speurneuzen BSO;BSO;Den Haag-Leiden;Ada van den Beld;140521318;Bart Reinking
+033;314413;" Startbaan TSO";TSO;Den Haag-Leiden;Ada van den Beld;;Bart Reinking
+033;314602;Buitenspel BSO;BSO;Den Haag-Leiden;Mathilde Sleeuwenhoek;922772812;Saskia Terlingen- Milenaar
+033;314802;Jeugdhonk BSO;BSO;Den Haag-Leiden;Sylvia Weernink;601512510;Sabine Lemmers
+033;314902;Sprinters BSO;BSO;Den Haag-Leiden;Ada van den Beld;356519818;Bart Reinking
+033;314903;TSO De Kinderburg;TSO;Den Haag-Leiden;Ada van den Beld;;Bart Reinking
+033;315002;Jungle ( Hoofddorp) BSO;BSO;Noord Holland;Özlem Hanli;178219344;Jacqueline van Roosmalen
+033;315502;Toverzand BSO;BSO;Noord Holland;Özlem Hanli;212867520;Jacqueline van Roosmalen
+033;315902;Dorpshuis BSO;BSO;Noord Holland;Sylvia Weernink;310400600;Ellen de Droog
+033;320101;'t Dijkje KOV;KDV;Noord Holland;Kristian Jonker;551199854;Wendy Visser
+033;320202;De Groene Dijk BSO;BSO;Noord Holland;Kristian Jonker;227315169;Wendy Visser
+033;320401;In de Bloei KOV;KDV;Noord Holland;Özlem Hanli;951125722;Muriël Meester - Greuter
+033;320502;Meester Spigtschool BSO;BSO;Noord Holland;Özlem Hanli;193890082;Muriël Meester - Greuter
+033;320503;Meester Spigtschool TSO;TSO;Noord Holland;Elias Mezach;;Muriel Meester
+033;320601;De Kieft KOV;KDV;Noord Holland;Kristian Jonker;189734383;Lucia Damen
+033;320602;De Kieft BSO;BSO;Noord Holland;Kristian Jonker;102388441;Lucia Damen
+033;320603;De Kieft TSO;TSO;Noord Holland;Elias Mezach;;Lucia Damen
+033;320701;De Kindervloot KOV;KDV;Noord Holland;Kristian Jonker;447780906;Annemiek Klopper
+033;320702;De Kindervloot BSO;BSO;Noord Holland;Kristian Jonker;424856074;Annemiek Klopper
+033;320801;Meerkids KOV;KDV;Noord Holland;Kristian Jonker;444912149;Ciska Lauffer
+033;320811;Het Pienternest KOV;KDV;Noord Holland;Kristian Jonker;204622025;Ciska Lauffeur
+033;320812;Het Pienternest BSO;BSO;Noord Holland;Kristian Jonker;854203199;Ciska Lauffer
+033;320901;Jubelz KOV;KDV;Noord Holland;Esther Wijnand;619995257;Natalia Laan
+033;320902;Jubelz BSO;BSO;Noord Holland;Esther Wijnand;200190155;Natalia Laan
+033;320923;De Baskuul TSO;TSO;Noord Holland;;;Nathalia Laan
+033;321001;De Poppenpaal KOV;KDV;Noord Holland;Kristian Jonker;220057795;Angelique Huijgens - de Jong
+033;321002;De Poppenpaal BSO;BSO;Noord Holland;Kristian Jonker;172450196;Angelique Huijgens - de Jong
+033;321101;De Perenboom KOV;KDV;Noord Holland;Kristian Jonker;161502544;Martine van Til
+033;321113;TSO Kidskasteel;TSO;1.;;;Muriël Meester
+033;321201;Eigentijds KOV;KDV;Noord Holland;Kristian Jonker;372073220;Annemiek Klopper
+033;321202;Eigentijds BSO;BSO;Noord Holland;Kristian Jonker;640559980;Annemiek Klopper
+033;321401;Villa Bloesemgaerde KOV;KDV;Noord Holland;Esther Wijnand;177913794;Jeannette van Zelst
+033;321402;Villa Bloesemgaerde BSO;BSO;Noord Holland;Esther Wijnand;785515847;Jeannette van Zelst
+033;321702;Villa De Eigenwijzer BSO;BSO;Noord Holland;Kristian Jonker;150362080;Gerberina Zeelen
+033;321801;Villa de Boerderie KOV;KDV;Noord Holland;Kristian Jonker;117154076;Gerberina Zeelen
+033;321802;Villa de Boerderie BSO;BSO;Noord Holland;Kristian Jonker;135761840;Gerberina Zeelen
+033;321803;TSO Villa de Boerderie;TSO;1.;Loretta Vos;;Ilona van den Berg
+033;322201;Villa Petteflet KOV;KDV;Noord Holland;Kristian Jonker;178873615;Cindy Frissen
+033;322202;Villa Petteflet BSO;BSO;Noord Holland;Kristian Jonker;898838812;Cindy Frissen
+033;322501;Villa Sprookjestuin KOV;KDV;Noord Holland;Kristian Jonker;448176750;Sandra Hooiveld
+033;322502;Villa Sprookjestuin BSO;BSO;Noord Holland;Kristian Jonker;145565804;Sandra Hooiveld
+033;322513;Klim-Op TSO;TSO;Noord Holland;;;Sandra Hooiveld
+033;322523;Willibrordus TSO;TSO;Noord Holland;;;Sandra Hooiveld
+033;322601;Villa Mila KOV;KDV;Noord Holland;Kristian Jonker;143684255;Cindy Frissen
+033;322901;Villa Pjotter KOV;KDV;Noord Holland;Esther Wijnand;157130381;Marieke Swart
+033;322902;Villa Pjotter BSO;BSO;Noord Holland;Esther Wijnand;202667108;Marieke Swart
+033;323401;Villa Mamaloe KOV;KDV;Noord Holland;Esther Wijnand;217245407;Sharon Spaan
+033;323402;Villa Mamaloe BSO;BSO;Noord Holland;Esther Wijnand;745343120;Sharon Spaan
+033;323412;Klaverweid BSO;BSO;Noord Holland;Esther Wijnand;271755027;Sharon Spaan
+033;323501;Villa Harlekijn KOV;KDV;Noord Holland;Kristian Jonker;176889267;Lydia van Marle - Reinstra
+033;323502;Villa Harlekijn BSO;BSO;Noord Holland;Kristian Jonker;187293387;Lydia van Marle - Reinstra
+033;325501;Joriaantje KOV;KDV;Rotterdam e.o.;Sharon Plas;246753122;Krista Ignatia-Boudewijn
+033;326201;Spant KOV;KDV;Rotterdam e.o.;Sharon Plas;163122349;Mattheo Korsten
+033;326202;Spant BSO;BSO;Rotterdam e.o.;Sharon Plas;662051002;Mattheo Korsten
+033;326213;De Waterhof Angolastr TSO;TSO;Rotterdam e.o.;;;Mattheo Korsten
+033;326401;Ukkepuk KOV;KDV;Rotterdam e.o.;Sharon Plas;113280671;Ellen Prins
+033;326602;Woezelhuis BSO;BSO;Zuid;Kristian Jonker;957907606;Marloes de Man
+033;326701;Zeeparel KOV;KDV;Rotterdam e.o.;Sharon Plas;218011362;Amanda de Kok
+033;326702;Zeeparel BSO;BSO;Rotterdam e.o.;Sharon Plas;204695636;Amanda de Kok
+033;326703;Zeeparel TSO;TSO;Rotterdam e.o.;Marjolein Beuvink;;Amanda de Kok
+033;327103;TSO Rangers;TSO;Zuid;Marjolein Beuvink;;Natasja van Doorn
+033;327801;Lokomotief KOV;KDV;Rotterdam e.o.;Sharon Plas;211807059;Crista Ignatia-boudewijn
+033;327802;Lokomotief BSO;BSO;Rotterdam e.o.;Sharon Plas;178804721;Crista Ignatia-boudewijn
+033;328501;Roomtuintjes KOV;KDV;Amsterdam;Esther Wijnand;102034175;Emilie Rijken
+033;328701;De Zon KOV;KDV;Amsterdam;Esther Wijnand;195445673;Manon Smit
+033;328702;De Zon BSO;BSO;Amsterdam;Esther Wijnand;234863559;Manon Smit
+033;329001;Reigersbos KOV;KDV;Amsterdam;Esther Wijnand;672367610;Nicole Vogelaar
+033;329002;Reigersbos BSO;BSO;Amsterdam;Esther Wijnand;176324860;Nicole Vogelaar
+033;329101;Marathon KOV;KDV;Amsterdam;Esther Wijnand;497089099;Rolien Hollemans
+033;329102;Hygiëaplein 40 BSO;BSO;Amsterdam;Esther Wijnand;220904844;Rolien Hollemans
+033;329201;Eilanden KOV;KDV;Amsterdam;Malina Misnar - Tomas;121940123;Brian Bos
+033;329202;Eilanden BSO;BSO;Amsterdam;Malina Misnar - Tomas;516021400;Maura Pheifer
+033;329701;Bilderdijkpark KOV;KDV;Amsterdam;Malina Misnar - Tomas;222902127;Ida de Haart
+033;329702;Bilderdijkpark BSO;BSO;Amsterdam;Malina Misnar - Tomas;114112241;Ida de Haart
+033;329901;Christoffel KOV;KDV;Amsterdam;Malina Misnar - Tomas;133497483;Annemarie ter Haar
+033;330101;Ensemble KOV;KDV;Amsterdam;Malina Misnar - Tomas;240704228;Dorien Zwanenburg
+033;330201;Aan zee KOV;KDV;Noord Holland;Sylvia Weernink;124667065;Wanda Malcolm
+033;330202;Aan zee BSO;BSO;Noord Holland;Sylvia Weernink;105850603;Wanda Malcolm
+033;330301;Bios KOV;KDV;Noord;Debbie Platenkamp;794364858;Bianca van Wees
+033;330302;Bios zaal 2 BSO;BSO;Noord;Debbie Platenkamp;176242417;Bianca van Wees
+033;330305;Ollie POV;KDV;Noord;;794364858;Mariska Veenstra
+033;330312;Bios BSO;BSO;Noord;Debbie Platenkamp;160263980;Bianca van Wees
+033;330501;Laterna KOV;KDV;Noord;Debbie Platenkamp;124303298;Myra den Ouden
+033;330502;Laterna BSO;BSO;Noord;Debbie Platenkamp;172770609;Myra den Ouden
+033;331001;Archipel KOV;KDV;Noord;Debbie Platenkamp;202742830;Ilona Brone
+033;331002;Archipel BSO;BSO;Noord;Debbie Platenkamp;226486904;Kim Ketting
+033;331005;Archipel 2 POV;KDV;Noord;Debbie Platenkamp;202742830;Mariska Veenstra
+033;331005;De @rchipel 1 POV;KDV;Noord;Debbie Platenkamp;202742830;Mariska Veenstra-Buist
+033;331101;Haven KOV;KDV;Noord;Debbie Platenkamp;954580461;Maite de Gerth
+033;331102;Haven BSO;BSO;Noord;Debbie Platenkamp;778789883;Maite de Gerth
+033;331802;Speeltuin BSO;BSO;Noord Holland;Sylvia Weernink;175741633;Sandra van Deelen
+033;332102;De Club BSO;BSO;Noord;Debbie Platenkamp;116844930;Ilona Brone
+033;332105;Ik en Jij POV;KDV;Noord;Debbie Platenkamp;687903750;Mariska Veenstra-Buist
+033;332305;Zonnebloemweg POV;KDV;Noord;Debbie Platenkamp;278585577;Mariska Veenstra
+033;332601;Westendorp KOV;KDV;Amsterdam;Malina Misnar - Tomas;204294095;Kris Raktoe
+033;332602;Westendorp BSO;BSO;Amsterdam;Malina Misnar - Tomas;762321465;Kris Raktoe
+033;332801;Princenhoeve KOV;KDV;Zuid;Tara Luesink;858806873;Young Ha Sluiter
+033;332802;Princenhoeve BSO;BSO;Zuid;Tara Luesink;131310252;Young Ha Sluiter
+033;332901;Reigersnest KOV;KDV;Noord Holland;Özlem Hanli;189774319;Muriel Meester
+033;332902;Reigersnest BSO;BSO;Noord Holland;Özlem Hanli;102321012;Muriel Meester
+033;332903;Reigersnest TSO;TSO;Noord Holland;Elias Mezach;;Muriel Meester
+033;333001;Kabouters KOV;KDV;Noord Holland;Sylvia Weernink;234336298;Liesbeth Vrasdonk
+033;333002;Kabouters BSO;BSO;Noord Holland;Sylvia Weernink;181357392;Liesbeth Vrasdonk
+033;333101;Noorderkabouters KOV;KDV;Noord Holland;Sylvia Weernink;187869558;Liesbeth Vrasdonk
+033;334201;Marie van Westerhovenstraat KOV;KDV;Amsterdam;Malina Misnar - Tomas;532959371;Marisca van Veen
+033;334202;Marie van Westerhovenstraat BSO;BSO;Amsterdam;Malina Misnar - Tomas;165735363;Marisca van Veen
+033;334301;De Speelhoek KOV;KDV;Noord Holland;Esther Wijnand;247767335;Sandra van Deelen
+033;334302;De Speelhoek BSO;BSO;Noord Holland;Esther Wijnand;313564048;Sandra van Deelen
+033;334313;Aloysius TSO;TSO;Utrecht e.o.;Yvonne Schuurman;;Sandra van Deelen
+033;334405;Speelmolen POV;KDV;Noord;Debbie Platenkamp;624798021;Mariska Veenstra
+033;334805;Jan Huigen POV;KDV;Noord;Debbie Platenkamp;217519209;Mariska Veenstra
+033;334905;Campus Caleidoscoop POV;KDV;Noord;Debbie Platenkamp;180377851;Mariska Veenstra
+033;335101;Burgemeester Roeringlaan KOV;KDV;Den Haag-Leiden;Ada van den Beld;368765283;Lysette Sloof
+033;335201;Burgemeester Sweenslaan KOV;KDV;Den Haag-Leiden;Ada van den Beld;122966788;Lysette Sloof
+033;335301;Veurselaan KOV;KDV;Den Haag-Leiden;Mathilde Sleeuwenhoek;199274721;Michael Oosterbaan
+033;335405;Regenboogweg POV;KDV;Noord;Debbie Platenkamp;229516257;Mariska Veenstra
+033;335513;TSO Wespennest;TSO;Amsterdam;;;Wiep van Maanen
+033;335605;Ziezo POV;KDV;Noord;Debbie Platenkamp;336997656;Mariska Veenstra-Buist
+033;335702;Woutertje van Leyden BSO;BSO;Den Haag-Leiden;Sylvia Weernink;197121238;Mark van Diemen
+033;335902;Avontuurlijk BSO;BSO;Den Haag-Leiden;Sylvia Weernink;112140105;Sabine Lemmers
+033;336001;Dukdalf KOV;KDV;Den Haag-Leiden;Miranda Snijders;650371380;Diana van der Zwan
+033;336002;Dukdalf BSO;BSO;Den Haag-Leiden;Miranda Snijders;364564714;Diana van der Zwan
+033;336102;KidsKasteel BSO;BSO;Noord Holland;Kristian Jonker;469044226;Martine van Til
+033;336103;Kidskasteel TSO;TSO;Noord Holland;;;Martine van Til
+033;336201;Flevohof KOV;KDV;Amsterdam;Malina Misnar - Tomas;323534806;Brian Bos
+033;336202;Flevohof BSO;BSO;Amsterdam;Malina Misnar - Tomas;197337636;Brian Bos
+033;336302;Sytwendepark BSO;BSO;Den Haag-Leiden;Mathilde Sleeuwenhoek;291167123;Michael Oosterbaan
+033;336401;Dikkie Dik KOV;KDV;Rotterdam e.o.;Martine de Vries;146133845;Dana Vreugdenhil
+033;336402;Happy Kids BSO;BSO;Rotterdam e.o.;Martine de Vries;411995169;Dana Vreugdenhil
+033;336502;Jungle (Spijkenisse)BSO;BSO;Rotterdam e.o.;Elske Bruil;108845035;Waninka van Gent
+033;336602;Kleine Klinker BSO;BSO;Rotterdam e.o.;Martine de Vries;541489823;Brian Zuijderduijn
+033;336603;Klinker TSO;TSO;Rotterdam e.o.;Martine de Vries;;Brian Zuijderduijn
+033;336702;Krullenbol BSO;BSO;Rotterdam e.o.;Martine de Vries;275802474;Marissa In 't Veld-Kostense
+033;336712;Krullenbol Dependance BSO;BSO;Rotterdam e.o.;Martine de Vries;293110128;Marissa In 't Veld-Kostense
+033;336801;Polderpioniers KOV;KDV;Rotterdam e.o.;Elske Bruil;896892736;Marjolein Fredriks
+033;336802;Polderpioniers BSO;BSO;Rotterdam e.o.;Elske Bruil;188752110;Marjolein Fredriks
+033;336814;Don Bosco(Rhoon) VSO;BSO;Rotterdam e.o.;Elske Bruil;923505659;Marjolein Fredriks
+033;336823;Valckesteyn TSO;TSO;2.;Elske Bruil;;Marjolein Fredriks
+033;336902;Samsam BSO;BSO;Rotterdam e.o.;Martine de Vries;225357094;Brian Zuijderduijn
+033;337002;Sport Leidschenveen BSO;BSO;Den Haag-Leiden;Mathilde Sleeuwenhoek;191231095;Michelle van der Werff
+033;337101;Woeste Willem KOV;KDV;Rotterdam e.o.;Martine de Vries;203668911;Suzanne Rienks
+033;337102;Villa Kakelbont BSO;BSO;Rotterdam e.o.;Martine de Vries;207585295;Suzanne Rienks
+033;337202;Zie Zo BSO;BSO;Rotterdam e.o.;Martine de Vries;899540776;Marissa In 't Veld-Kostense
+033;337204;Piramide schenkel VSO;BSO;2.;Martine de Vries;183993172;Marissa Kostense
+033;337301;BonBon Boerderij KOV;KDV;Rotterdam e.o.;Marjolein Beuvink;553968580;Shelley Olivier
+033;337302;BonBon Boerderij BSO;BSO;Rotterdam e.o.;Marjolein Beuvink;166250223;Shelley Olivier
+033;337303;Grote reis TSO;TSO;Rotterdam e.o.;Marjolein Beuvink;;Shelley Olivier
+033;337401;Cosykids KOV;KDV;Rotterdam e.o.;Elske Bruil;197948406;Waninka van Gent
+033;337402;Cosykids BSO;BSO;Rotterdam e.o.;Elske Bruil;183221552;Waninka van Gent
+033;337501;De Globetrotters KOV;KDV;Den Haag-Leiden;Ada van den Beld;166190123;Ben Jordan
+033;337502;De Globetrotters BSO;BSO;Den Haag-Leiden;Ada van den Beld;136217242;Ben Jordan
+033;337601;WaterWiebels KOV;KDV;Rotterdam e.o.;Elske Bruil;186746945;Mariska van Doorn
+033;337705;Flierefluiters POV;KDV;Rotterdam e.o.;Elske Bruil;930750044;Conny Rieborn
+033;337805;Hommeltje POV;KDV;Rotterdam e.o.;Elske Bruil;291111191;Conny Rieborn - Verkeij
+033;338002;Grote Beer(Spijkenisse) BSO;BSO;Rotterdam e.o.;Martine de Vries;113788976;Brian Zuijderduijn
+033;338101;Prikkebeen KOV;KDV;Den Haag-Leiden;Sylvia Weernink;206580472;Nicole Gerritsen
+033;338102;Prikkebeen BSO;BSO;Den Haag-Leiden;Sylvia Weernink;219291184;Nicole Gerritsen
+033;338201;Beer Balou KOV;KDV;Rotterdam e.o.;Elske Bruil;217048225;Waninka van Gent
+033;338301;'t Heibosch KOV;KDV;Zuid;Madeleine van Tiel;727214937;Eva Nahumury
+033;338302;'t Heibosch BSO;BSO;Zuid;Madeleine van Tiel;238657607;Eva Nahumury
+033;338405;Kleine Reus POV;KDV;Rotterdam e.o.;Martine de Vries;174443195;Wilma Rodenburg
+033;338505;Kaboutertjes POV;KDV;Rotterdam e.o.;Martine de Vries;976009304;Wilma Rodenburg
+033;338605;Donderkopjes POV;KDV;Rotterdam e.o.;Martine de Vries;148038797;Wilma Rodenburg
+033;338705;Jip en Janneke POV;KDV;Rotterdam e.o.;Elske Bruil;445783515;Conny Rieborn
+033;338805;Waterwiebels POV;KDV;Rotterdam e.o.;Elske Bruil;180755481;Conny Rieborn
+033;338905;Kleine Beer(Spijkenisse) POV;KDV;Rotterdam e.o.;Martine de Vries;190964285;Wilma Rodenburg
+033;339005;Hummelhonk POV;KDV;Rotterdam e.o.;Martine de Vries;266592077;Wilma Rodenburg
+033;339103;TSO Achtbaan Beukenrode;TSO;Den Haag-Leiden;Marjolein Beuvink;;Bas Vos
+033;339105;De Speelkabouters POV;KDV;Den Haag-Leiden;Ilse Scheepens;318670355;Moniek Oerlemans
+033;339201;Bloemenschans KOV;KDV;Den Haag-Leiden;Ilse Scheepens;803925542;Moniek Oerlemans
+033;339302;Bonekruid BSO;BSO;Den Haag-Leiden;Ilse Scheepens;185130975;Bas Vos
+033;339303;Emmaus TSO;TSO;Den Haag-Leiden;Marjolein Beuvink;;Bas Vos
+033;339402;De Poel BSO;BSO;Den Haag-Leiden;Ilse Scheepens;140078253;Diana Houwaard
+033;339403;Juliana TSO;TSO;Den Haag-Leiden;Marjolein Beuvink;;
+033;339405;De Poel POV;KDV;Den Haag-Leiden;Ilse Scheepens;166961255;Diana Houwaard
+033;339502;De Speelzolder BSO;BSO;Den Haag-Leiden;Marjolein Beuvink;109682798;
+033;339503;Oranje Nassauschool TSO;TSO;Den Haag-Leiden;Marjolein Beuvink;;Saskia Dijkhuis
+033;339505;De Ruijterstraat POV;KDV;Den Haag-Leiden;Ilse Scheepens;163531213;Diana Houwaard
+033;339603;TSO Achtbaan Oosthout;TSO;Den Haag-Leiden;Marjolein Beuvink;;Bas Vos
+033;339605;Dribbel POV;KDV;Den Haag-Leiden;Marjolein Beuvink;118596664;Bas Vos
+033;339702;Watervilla BSO;BSO;Den Haag-Leiden;Ilse Scheepens;145919869;Jaap van Dorp
+033;339902;Hoogwakersbosstraat BSO;BSO;Den Haag-Leiden;Nicole van Elk;486102233;Lisen Bakkenes
+033;339905;Hoogwakersbosstraat POV;KDV;Den Haag-Leiden;Nicole van Elk;155122927;Lisen Bakkenes
+033;340005;t Speelhofje POV;KDV;Den Haag-Leiden;Mathilde Sleeuwenhoek;117416812;Lisen Bakkenes
+033;340202;Speelhonk BSO;BSO;Den Haag-Leiden;Nicole van Elk;186796717;Lisen Bakkenes
+033;340203;Zeehonk TSO;TSO;Den Haag-Leiden;Ilse Scheepens;;Lisen Bakkenes
+033;340205;t Kimmetje POV;KDV;Den Haag-Leiden;Mathilde Sleeuwenhoek;388768496;Lisen Bakkenes
+033;340302;De Speelwijzer BSO;BSO;Den Haag-Leiden;Ilse Scheepens;165758302;Diana Houwaard
+033;340303;De Wegwijzer TSO;TSO;Den Haag-Leiden;Marjolein Beuvink;;Diana Houwaard
+033;340305;De Wegwijzer POV;KDV;Den Haag-Leiden;Ilse Scheepens;918165738;Diana Houwaard
+033;340313;De Schakel TSO;TSO;Den Haag-Leiden;Marjolein Beuvink;;
+033;340333;Emma TSO;TSO;Den Haag-Leiden;;;
+033;340401;Mozartlaan KOV;KDV;Den Haag-Leiden;Ilse Scheepens;173188813;Soraya de Jong
+033;340502;Pieter van Slingerlandstraat BSO;BSO;Den Haag-Leiden;Ilse Scheepens;648022365;Bas Vos
+033;340503;TSO Achtbaan Cluster;TSO;Den Haag-Leiden;Marjolein Beuvink;;Bas Vos
+033;340513;Regenboog cluster TSO;TSO;Den Haag-Leiden;Marjolein Beuvink;;Bas Vos
+033;340523;Avonturier TSO;TSO;Den Haag-Leiden;Ilse Scheepens;;Bas Vos
+033;340601;Rembrandtlaan KOV;KDV;Den Haag-Leiden;Ilse Scheepens;228885206;Lisen Bakkenes
+033;340602;Rembrandtlaan BSO;BSO;Den Haag-Leiden;Ilse Scheepens;850268151;Lisen Bakkenes
+033;340605;De Speelkornuitjes POV;KDV;Den Haag-Leiden;Ilse Scheepens;200360693;Lisen Bakkenes
+033;340702;Sportlaan BSO;BSO;Den Haag-Leiden;Ilse Scheepens;221293061;Jaap van Dorp
+033;340801;De Deimten KOV;KDV;Noord;Laura Steggink;134652174;Rudi Nijmeijer
+033;340802;De Deimten BSO;BSO;Noord;Laura Steggink;311562693;Rudi Nijmeijer
+033;340901;Slenk KOV;KDV;Noord;Laura Steggink;165780885;Janine Drenth
+033;341002;Het Speelparadijs BSO;BSO;Den Haag-Leiden;Ilse Scheepens;925632739;Diana Houwaard
+033;341005;Het Cappelrijeland POV;KDV;Den Haag-Leiden;Ilse Scheepens;312388184;Diana Houwaard
+033;341105;Diligence POV;KDV;Den Haag-Leiden;Ilse Scheepens;120406573;Marilisa Warmenhoven
+033;341205;De Rank POV;KDV;Den Haag-Leiden;Ilse Scheepens;682608208;Marilisa Warmenhoven
+033;341502;Lugtmeijer BSO;BSO;Midden Oost;Yvonne Schuurman;176054741;Jorien Oudshoorn
+033;341503;Lugtmeijer TSO;TSO;Midden Oost;;;Jorien Oudshoorn
+033;341701;Berflo Es KOV;KDV;Midden Oost;Leanne Giebels;614956018;Mirjam Vaca - Abbink
+033;341702;Berflo Es BSO;BSO;Midden Oost;Leanne Giebels;290997690;Mirjam Vaca - Abbink
+033;341801;Boomhut KOV;KDV;Midden Oost;Karin Post;196046439;Wilma Nijhof
+033;341802;De Boomhut BSO;BSO;Midden Oost;Karin Post;190306713;Wilma Nijhof
+033;341902;De Eendracht BSO;BSO;Midden Oost;Yvonne Schuurman;146644530;Jorien Oudshoorn
+033;341903;De Eendracht TSO;TSO;Midden Oost;;;Jorien Oudshoorn
+033;342001;Huize Pardoes KOV;KDV;Midden Oost;Tosha Vollebregt;790127301;Harry Pomp
+033;342102;Esrein Sport en Spel BSO;BSO;Midden Oost;Leanne Giebels;129100134;Shari Kuipers
+033;342201;Villa Hoogklimmer KOV;KDV;Midden Oost;Tosha Vollebregt;544080725;Harry Pomp
+033;342302;De Triangel BSO;BSO;Midden Oost;Leanne Giebels;179672666;Shari Kuipers
+033;342402;De Veldkamp BSO;BSO;Midden Oost;Tosha Vollebregt;845718174;Harry Pomp
+033;342502;De Borgh BSO;BSO;Midden Oost;Leanne Giebels;116542032;Ruud Kroeze
+033;342602;Scouting BSO;BSO;Midden Oost;Shannon van der Gaag;996876698;Jolyn van Egmond
+033;342701;Almen KOV;KDV;Midden Oost;Karin Post;462550242;Wilma Nijhof
+033;342702;Almen BSO;BSO;Midden Oost;Karin Post;178279201;Wilma Nijhof
+033;342805;De Vlinder (Zutphen) POV;KDV;Midden Oost;Shannon van der Gaag;222568586;Carin Oolbekkink
+033;342901;Het Boshoekje KOV;KDV;Midden Oost;Karin Post;194899287;Wilma Nijhof
+033;342902;Heppie BSO;BSO;Midden Oost;Karin Post;802565062;Wilma Nijhof
+033;343002;De Rank (Hengelo) BSO;BSO;Midden Oost;Shannon van der Gaag;975147924;Sjoerdtsje van Dijk
+033;343102;De Horst BSO;BSO;Midden Oost;Yvonne Schuurman;985999585;Jorien Oudshoorn
+033;343105;Het Peuterhofje POV;KDV;Midden Oost;Yvonne Schuurman;212065579;Jorien Oudshoorn
+033;343201;Het Kwartet KOV;KDV;Midden Oost;Karin Post;149184955;Wilma Nijhof
+033;343302;Oosterhuizen BSO;BSO;Midden Oost;Zehra van Tienderen;101961066;Jorien Oudshoorn
+033;343305;Oosterhuizen POV;KDV;Midden Oost;Zehra van Tienderen;144874659;Jorien Oudshoorn
+033;343401;Het Zwanevlot KOV;KDV;Midden Oost;Shannon van der Gaag;142689750;Patricia Brouwer
+033;343402;Het Zwanevlot BSO;BSO;Midden Oost;Shannon van der Gaag;146941081;Patricia Brouwer
+033;343502;'t Eimink BSO;BSO;Midden Oost;Leanne Giebels;518210261;Ruud Kroeze
+033;343601;Het Hart KOV;KDV;Midden Oost;Karin Post;150638425;Wilma Nijhof
+033;343702;De Fontein BSO;BSO;Midden Oost;Shannon van der Gaag;887821807;Helga de Krosse
+033;343705;De Fontein POV;KDV;Midden Oost;Yvonne Schuurman;219425255;Helga de Krosse
+033;343802;Beckum BSO;BSO;Midden Oost;Leanne Giebels;170506319;Shari Kuipers
+033;343901;Het Groene Kroontje KOV;KDV;Midden Oost;Zehra van Tienderen;157724864;Jessica Rattink
+033;343905;Het Groene Kroontje POV;KDV;Midden Oost;;157724864;Jessica Rattink
+033;343912;Bengels van de Kroon BSO;BSO;Midden Oost;Zehra van Tienderen;576665423;Jessica Rattink
+033;344001;Adriaan van den Ende KOV;KDV;Midden Oost;Shannon van der Gaag;995053960;Brenda Lustig
+033;344002;Adriaan van den Ende BSO;BSO;Midden Oost;Shannon van der Gaag;664602034;Brenda Lustig
+033;344202;Scheperstee BSO;BSO;Midden Oost;Yvonne Schuurman;653181000;Helga de Krosse
+033;344301;Don Bosco (Hengelo) KOV;KDV;Midden Oost;Leanne Giebels;158157527;Shari Kuipers
+033;344302;Don Bosco (Hengelo) BSO;BSO;Midden Oost;Leanne Giebels;303355888;Shari Kuipers
+033;344402;Jan Ligthart BSO;BSO;Midden Oost;Shannon van der Gaag;235663712;Helga de Krosse
+033;344405;Kleine Jan POV;KDV;Midden Oost;Shannon van der Gaag;118374217;Helga de Krosse
+033;344501;De Telgenkamp KOV;KDV;Midden Oost;Shannon van der Gaag;694124126;Mirjam Vaca - Abbink
+033;344502;De Telgenkamp BSO;BSO;Midden Oost;Shannon van der Gaag;232013263;Mirjam Vaca - Abbink
+033;344601;Lea Dasberg KOV;KDV;Midden Oost;Shannon van der Gaag;411396250;Brenda Lustig
+033;344602;Lea Dasberg BSO;BSO;Midden Oost;Shannon van der Gaag;143611963;Brenda Lustig
+033;344701;Theo Thijssen KOV;KDV;Midden Oost;Shannon van der Gaag;501991761;Helga de Krosse
+033;344702;Theo Thijssen BSO;BSO;Midden Oost;Shannon van der Gaag;104825534;Helga de Krosse
+033;344802;Schakel-Donken BSO;BSO;Midden Oost;Yvonne Schuurman;232637994;Irma Cinkara
+033;344901;De Mare KOV;KDV;Midden Oost;Tosha Vollebregt;212863678;Harry Pomp
+033;344902;De Mare BSO;BSO;Midden Oost;Tosha Vollebregt;222765240;Harry Pomp
+033;345001;Expres zó KOV (Hengelo);KDV;Noord;Chantal van Schaijk;941115835;Shari Kuipers
+033;345002;Expres zó BSO (Hengelo);BSO;Midden Oost;Leanne Giebels;184883106;Shari Kuipers
+033;345101;De Akker KOV;KDV;Midden Oost;Chantal van Schaijk;114508768;Shari Kuipers
+033;345102;De Akker BSO;BSO;Midden Oost;Leanne Giebels;828828416;Shari Kuipers
+033;345301;De Zevensprong (Apeldoorn) KOV;KDV;Midden Oost;Yvonne Schuurman;120495235;Irma Cinkara
+033;345302;De Zevensprong (Apeldoorn) BSO;BSO;Midden Oost;Yvonne Schuurman;207752564;Irma Cinkara
+033;345401;De Terebint KOV;KDV;Midden Oost;Yvonne Schuurman;382885119;Karoline Vleeshouwers - Elferi
+033;345402;De Terebint BSO;BSO;Midden Oost;Yvonne Schuurman;159858173;Karoline Vleeshouwers - Elferi
+033;345501;Monkie KOV;KDV;Midden Oost;Karin Post;526274220;Yvonne Siccama
+033;345502;Prins Constantijn BSO;BSO;Midden Oost;Karin Post;178163612;Yvonne Siccama
+033;345515;Monkie POV;KDV;Midden Oost;Karin Post;309087600;Yvonne Siccama
+033;345601;De Runneboom KOV;KDV;Midden Oost;Shannon van der Gaag;131062815;Helga de Krosse
+033;345702;Villa 60 BSO;BSO;Midden Oost;Karin Post;865088676;Wilma Nijhof
+033;345705;Villa 60 POV;KDV;Midden Oost;Karin Post;148074662;Wilma Nijhof
+033;345802;De Ontdekking BSO;BSO;Midden Oost;Yvonne Schuurman;236998717;Karoline Vleeshouwers - Elferi
+033;345805;Kleurenpalet POV;KDV;Midden Oost;Yvonne Schuurman;203433592;Karoline Vleeshouwers - Elferi
+033;345902;Sprengenpark BSO;BSO;Midden Oost;Yvonne Schuurman;290715775;Jorien Oudshoorn
+033;346101;De Mheen KOV;KDV;Midden Oost;Yvonne Schuurman;154432830;Jorien Oudshoorn
+033;346102;De Mheen BSO;BSO;Midden Oost;Yvonne Schuurman;101194778;Jorien Oudshoorn
+033;346103;De Mheen TSO;TSO;Noord;;;Jorien Oudshoorn
+033;346202;Prinses Juliana BSO;BSO;Midden Oost;Zehra van Tienderen;141960887;Karoline Vleeshouwers - Elferi
+033;346205;Prinses Juliana POV;KDV;Midden Oost;Zehra van Tienderen;236651055;Karoline Vleeshouwers
+033;346502;J.A. Vullerschool BSO;BSO;Midden Oost;Karin Post;318886145;Michelle Koenders
+033;346505;De Veldmuis POV;KDV;Midden Oost;Karin Post;198481640;Michelle Koenders
+033;346511;Villa Veldhof KOV;KDV;Midden Oost;Karin Post;115412645;Michelle Koenders
+033;346512;Villa Veldhof BSO;BSO;Midden Oost;Karin Post;532270368;Michelle Koenders
+033;346702;Plechelmus BSO;BSO;Midden Oost;Leanne Giebels;463246834;Lesley Sandvoort
+033;346705;Plechelmus POV;KDV;Midden Oost;Leanne Giebels;340268670;Lesley Sandvoort
+033;346802;Esrein Kerkstraat BSO;BSO;Midden Oost;Leanne Giebels;785228408;Shari Kuipers
+033;347102;Lea Dás leuk BSO;BSO;Midden Oost;Shannon van der Gaag;163435005;Brenda Lustig
+033;347202;Schakel-hoeve BSO;BSO;Midden Oost;Yvonne Schuurman;223111363;Karoline Vleeshouwers - Elferi
+033;347205;Schakel-hoeve POV;KDV;Midden Oost;Yvonne Schuurman;521893689;Karoline Vleeshouwers - Elferi
+033;347302;Kloosterke Actief BSO;BSO;Zuid;Tara Luesink;313443397;Riwka Berg- Beekhuis
+033;347402;Padland BSO;BSO;Noord Holland;Kristian Jonker;264692858;Lucia Damen
+033;347502;De Wereld BSO;BSO;Den Haag-Leiden;Miranda Snijders;151879746;Rik Vermeulen
+033;347602;Astronaut BSO;BSO;Den Haag-Leiden;Loretta Vos;190054384;Angelique van der Geest
+033;347702;De Zaaier BSO;BSO;Midden Oost;Karin Post;128379364;Justine Mellegers
+033;347805;De Parel POV;KDV;Midden Oost;Shannon van der Gaag;213023222;Patricia Brouwer
+033;348002;De Speelzolder BSO;BSO;Den Haag-Leiden;Ilse Scheepens;196604059;Diana Houwaard
+033;348005;De Dreumes POV;KDV;Den Haag-Leiden;Ilse Scheepens;532906172;Diana Houwaard
+033;348105;Dribbel POV;KDV;Den Haag-Leiden;Ilse Scheepens;221574864;Moniek Oerlemans
+033;348201;Noorderhof KOV;KDV;Amsterdam;Malina Misnar - Tomas;376567570;Kris Raktoe
+033;348202;Noorderhof BSO;BSO;Amsterdam;Malina Misnar - Tomas;175398100;Kris Raktoe
+033;348302;De Havik BSO;BSO;Noord;Laura Steggink;167296875;Rudi Nijmeijer
+033;348401;Den Hof KOV;KDV;Zuid;Tara Luesink;182363247;Natascha Haex - van Geneijgen
+033;348402;Den Hof BSO;BSO;Zuid;Tara Luesink;133663103;Natascha Haex - van Geneijgen
+033;348501;Wilhelminapark KOV;KDV;Zuid;Britt te Koppele;226889142;Frank de Wit
+033;348502;Wilhelminapark BSO;BSO;Zuid;Tara Luesink;102452337;Frank de Wit
+033;348601;Flora - Fiesta KOV;KDV;Rotterdam e.o.;Wendy Severs;480246099;Jordi van der Kaden
+033;348602;Flora - Fiesta BSO;BSO;Rotterdam e.o.;Wendy Severs;163269166;Jordi van der Kaden
+033;348702;Libro BSO;BSO;Rotterdam e.o.;Wendy Severs;186902839;Marjolein Lops
+033;348802;Terra BSO;BSO;Rotterdam e.o.;Wendy Severs;940862785;Mariska van Doorn
+033;348805;Terra POV;KDV;Rotterdam e.o.;Wendy Severs;294634022;Els Wijnen- van de Fliert
+033;348902;Move-it BSO;BSO;Rotterdam e.o.;Wendy Severs;742784381;Manon 't Zand - Kalter
+033;348902;Move-it BSO 2;BSO;Utrecht e.o.;Loretta Vos;742784381;Manon 't Zand
+033;349002;PicasZo BSO;BSO;Rotterdam e.o.;Loretta Vos;465679900;Marjolein Lops
+033;349102;Frisbi BSO;BSO;Rotterdam e.o.;Wendy Severs;124763819;Corina van Tilburg
+033;349103;Frisbi TSO;TSO;Rotterdam e.o.;Wendy Severs;;Corina van Tilburg
+033;349202;Nova BSO;BSO;Rotterdam e.o.;Wendy Severs;121212658;Corina van Tilburg
+033;349301;Hoepla KOV;KDV;Rotterdam e.o.;Wendy Severs;269900391;Anja Jansen
+033;349402;Hit-it BSO;BSO;Rotterdam e.o.;Wendy Severs;219712153;Anja Jansen
+033;349502;Expreszo BSO;BSO;Rotterdam e.o.;Wendy Severs;180463512;Corina van Tilburg
+033;349602;KetchUp BSO;BSO;Rotterdam e.o.;Wendy Severs;150505681;Manon van den Berg
+033;349603;KetchUp TSO;TSO;Rotterdam e.o.;Wendy Severs;;Manon van den Berg
+033;349702;Mozaiek BSO;BSO;Rotterdam e.o.;Wendy Severs;137298675;Manon van den Berg
+033;349802;Beetle BSO;BSO;Rotterdam e.o.;Wendy Severs;616998259;Corina van Tilburg
+033;349902;WildebraZZ BSO;BSO;Rotterdam e.o.;Loretta Vos;128997400;Frank de Wit
+033;350002;In de Mix BSO;BSO;Rotterdam e.o.;Loretta Vos;884475396;Frank de Wit
+033;350103;Mini & Max TSO;TSO;Utrecht e.o.;Loretta Vos;;
+033;350202;Focus BSO;BSO;Rotterdam e.o.;Loretta Vos;104107212;Cristina Mokkenstorm
+033;350302;Switch BSO;BSO;Rotterdam e.o.;Wendy Severs;869406449;Mandy Bartels
+033;350401;Babbels KOV;KDV;Rotterdam e.o.;Loretta Vos;893075413;Manon 't Zand - Kalter
+033;350602;Flexx BSO;BSO;Rotterdam e.o.;Elske Bruil;220484387;Sharon Hopman
+033;350603;Flexx TSO;TSO;Utrecht e.o.;Loretta Vos;;
+033;350702;Volta BSO;BSO;Rotterdam e.o.;Elske Bruil;268079043;Sharon Hopman
+033;350802;Chill BSO;BSO;Rotterdam e.o.;Elske Bruil;445676358;Sharon Hopman
+033;350902;Jojo BSO;BSO;Rotterdam e.o.;Elske Bruil;496034662;Sharon Hopman
+033;351002;Habitat BSO;BSO;Rotterdam e.o.;Elske Bruil;319140362;Wendy van den Berg
+033;351102;FlipperZ BSO;BSO;Rotterdam e.o.;Wendy Severs;107024354;Manon 't Zand - Kalter
+033;351202;DobberZ BSO;BSO;Rotterdam e.o.;Wendy Severs;292283143;Mariska van Doorn
+033;351302;Skala BSO;BSO;Rotterdam e.o.;Loretta Vos;149664461;Mandy Bartels
+033;351402;TerrasZo BSO;BSO;Rotterdam e.o.;Wendy Severs;280973305;Corina van Tilburg
+033;351502;DaVinZZi BSO;BSO;Rotterdam e.o.;Wendy Severs;199232672;Marjolein Lops
+033;351601;Oosterhout KOV;KDV;Zuid;Tara Luesink;180123932;Denise Konings
+033;351602;Oosterhout BSO;BSO;Zuid;Tara Luesink;171230656;Denise Konings
+033;351701;Teteringen KOV;KDV;Zuid;Tara Luesink;183148861;Anne Ketelaars
+033;351702;Teteringen BSO;BSO;Zuid;Tara Luesink;114985182;Anne Ketelaars
+033;351802;Donkerstraat BSO;BSO;Zuid;Tara Luesink;252325059;Anne Ketelaars
+033;351901;Markt 98 KOV;KDV;Zuid;Tara Luesink;202210157;Susan van Stiphout
+033;351902;Markt 98 BSO;BSO;Zuid;Tara Luesink;175056225;Susan van Stiphout
+033;352002;Lambertus BSO;BSO;Zuid;Tara Luesink;122627982;Susan van Stiphout
+033;352101;Sonate KOV;KDV;Zuid;Tara Luesink;324198826;Frank de Wit
+033;352102;Sonate BSO;BSO;Zuid;Tara Luesink;178817867;Brechtje Franken
+033;352103;TSO Sonate;TSO;Zuid;Tara Luesink;;Brechtje Franken
+033;352201;Prinsenbeek Vijverstraat KOV;KDV;Zuid;Tara Luesink;144142600;Chantal Immenga
+033;352302;Prinsenbeek Moleneind BSO;BSO;Zuid;Tara Luesink;264470722;Chantal Immenga
+033;352303;Prinsenbeek Moleneind TSO;TSO;Zuid;Tara Luesink;;Chantal Immenga
+033;352501;Princenhage KOV;KDV;Zuid;Tara Luesink;215921707;Young Ha Sluiter
+033;352602;Dobbelsteen BSO;BSO;Zuid;Tara Luesink;233641208;Young Ha Sluiter
+033;352603;Dobbelsteen TSO;TSO;Zuid;Tara Luesink;;Susan van Stiphout
+033;352701;Teteringsedijk KOV;KDV;Zuid;Tara Luesink;183479075;Denise Konings
+033;352801;Breda Centrum KOV;KDV;Zuid;Tara Luesink;326213053;Anne Ketelaars
+033;352901;Oase KOV;KDV;Zuid;Tara Luesink;117144605;Denise Konings
+033;352902;Oase BSO;BSO;Zuid;Miranda Snijders;502149899;Denise Konings
+033;353002;Distelweg BSO;BSO;Den Haag-Leiden;Ilse Scheepens;594650872;Bas Vos
+033;353003;Regenboog Oosthout TSO;TSO;Den Haag-Leiden;Ilse Scheepens;;Bas Vos
+033;353005;Kiekeboe POV;KDV;Den Haag-Leiden;Ilse Scheepens;218018861;Moniek Oerlemans
+033;353101;Rakkertjes KOV;KDV;Midden Oost;Leanne Giebels;165382703;Lesley Sandvoort
+033;353102;Rakkertjes BSO;BSO;Midden Oost;Leanne Giebels;203736813;Lesley Sandvoort
+033;353201;Rammelaar KOV;KDV;Midden Oost;Leanne Giebels;230098599;Elles van der Mast - Zengerink
+033;353202;Rammelaar BSO;BSO;Midden Oost;Leanne Giebels;158248946;Elles van der Mast - Zengerink
+033;353302;Wilbert BSO;BSO;Midden Oost;Leanne Giebels;595042909;Lesley Sandvoort
+033;353303;Wilbert TSO;TSO;Midden Oost;;;Lesley Sandvoort
+033;353402;Kuyperschool BSO;BSO;Midden Oost;Leanne Giebels;204006557;Elles van der Mast - Zengerink
+033;353501;Brandlichterweg KOV;KDV;Midden Oost;Tosha Vollebregt;619594871;Els Veldhof - Meijer
+033;353601;Anemoonstraat KOV;KDV;Midden Oost;Tosha Vollebregt;163979510;Ingeborg Lucassen
+033;353602;Anemoonstraat BSO;BSO;Midden Oost;Tosha Vollebregt;230202238;Ingeborg Lucassen
+033;353701;Profietstraat KOV;KDV;Midden Oost;Tosha Vollebregt;107157196;Harriette Vink
+033;353702;Profietstraat BSO;BSO;Midden Oost;Tosha Vollebregt;141996559;Harriette Vink
+033;353801;Kerkweg 12 KOV;KDV;Midden Oost;Tosha Vollebregt;147000993;Marieke Kleissen - Otten
+033;353901;Kerkweg 1 KOV;KDV;Midden Oost;Tosha Vollebregt;152507978;Marieke Kleissen - Otten
+033;353902;Kerkweg 1 BSO;BSO;Midden Oost;Tosha Vollebregt;195831639;Marieke Kleissen - Otten
+033;354001;Raadhuisstraat KOV;KDV;Midden Oost;Tosha Vollebregt;235857014;Thijs Blenke
+033;354002;Raadhuisstraat BSO;BSO;Midden Oost;Tosha Vollebregt;508841653;Thijs Blenke
+033;354102;Boshuizerkade BSO;BSO;Den Haag-Leiden;Miranda Snijders;155707735;Rik Vermeulen
+033;354202;NEC BSO;BSO;Noord;Laura Steggink;269701990;Bianca Douma
+033;354301;Vlindertuin Leiden KOV;KDV;Den Haag-Leiden;Ada van den Beld;167453890;Michelle Kluiters
+033;354302;Vlindertuin Leiden  BSO;BSO;Den Haag-Leiden;Ada van den Beld;190066076;Michelle Kluiters
+033;354401;Dorpsstraat KOV;KDV;Rotterdam e.o.;Marjolein Beuvink;961420790;Manon 't Zand - Kalter
+033;354501;Hoekeindseweg KOV;KDV;Rotterdam e.o.;Marjolein Beuvink;175064210;Manon 't Zand - Kalter
+033;354601;Kameleon Bleiswijk KOV;KDV;Rotterdam e.o.;Marjolein Beuvink;161810044;Wendy van den Berg
+033;354702;Turkooislaan BSO;BSO;Den Haag-Leiden;Ada van den Beld;909036962;Michelle Kluiters
+033;354802;Speelpoort BSO;BSO;Noord;Laura Steggink;148438234;Karin Slijkhuis - Steen
+033;354902;Kanjers BSO;BSO;Rotterdam e.o.;Marjolein Beuvink;812514452;Wendy van den Berg
+033;355002;Powerkids Sport BSO;BSO;Noord;Laura Steggink;220327609;Bianca Mafait
+033;355101;Capelle KOV;KDV;Amsterdam;Malina Misnar - Tomas;240786233;Wiep van Maanen
+033;355102;Capelle BSO;BSO;Amsterdam;Malina Misnar - Tomas;243203500;Wiep van Maanen
+033;355301;Pinokkio POV;KDV;Midden Oost;Esther Koek;274479977;Marieke Koehorst
+033;355401;Driemaster KOV;KDV;Amsterdam;Malina Misnar - Tomas;273224414;Wiep van Maanen
+033;355402;Driemaster BSO;BSO;Amsterdam;Malina Misnar - Tomas;316059559;Wiep van Maanen
+033;355502;Startbaan BSO;BSO;Den Haag-Leiden;Ada van den Beld;250340926;Bart Reinking
+033;355503;Startbaan TSO;TSO;Den Haag-Leiden;Ada van den Beld;;Bart Reinking
+033;355505;Startbaan POV;KDV;Den Haag-Leiden;Ada van den Beld;299620669;Marilisa Warmenhoven
+033;355601;Papillon KOV;KDV;Midden Oost;Esther Koek;260944233;Jolanda Gimberg
+033;355602;Mirakel BSO;BSO;Midden Oost;Esther Koek;235344849;Jolanda Gimberg
+033;355802;Olympus Sport BSO;BSO;Utrecht e.o.;;530339365;Jaime van Hemessen
+033;355901;Speelhaven KOV;KDV;Noord Holland;Kristian Jonker;152069094;Annemiek Klopper
+033;355903;Meridiaan TSO;TSO;Noord Holland;;;Annemiek Klopper
+033;356002;Haverkamp BSO;BSO;Midden Oost;Esther Koek;252492365;Jolanda Gimberg
+033;356101;Boerderij Geessinkweg KDV;KDV;Midden Oost;Karin Post;224442119;Angelique Buijs
+033;356201;Villa Haaksbergerstraat KDV;KDV;;;212849359;Lotte van Huizen
+033;356301;Villa Hengelosestraat KDV;KDV;;;660994926;Anouk Heinen
+033;356402;Geessinkweg BSO;BSO;;;135236034;Angelique Buijs
+033;356502;G.J van Heekstraat BSO;BSO;;;422322672;Anouk Heinen
+033;356602;Olympialaan BSO;BSO;;;232595811;Lotte van Huizen
+033;356705;Prins Maurits POV;KDV;;;153568926;Angelique Buijs
+033;356805;Alfonsus POV;KDV;;;948860881;Lotte van Huizen
+033;356905;De Kiem POV;KDV;;;559459221;Lotte van Huizen
+033;357105;De Zuidsprong POV;KDV;;;110595075;Angelique Buijs
+033;357205;Het Wooldrik POV;KDV;;;729437759;Lotte van Huizen
+033;357305;Het Universum POV;KDV;;;860534832;Anouk Heinen
+033;360105;Kinderwereld POV;KDV;Midden Oost;;307149638;
+033;360205;De Horst POV;KDV;Midden Oost;Yvonne Schuurman;839756598;
+033;360305;'t Druivelaartje POV;KDV;Midden Oost;Yvonne Schuurman;103157323;
+033;360405;De Kleine Wijzer POV;KDV;Midden Oost;;204739615;
+033;360505;Hansje Pansje POV;KDV;Midden Oost;Yvonne Schuurman;158935433;
+033;360605;De Spil POV;KDV;Midden Oost;Yvonne Schuurman;379170747;
+033;360705;De Ontdekking POV;KDV;Midden Oost;;266979567;
+033;360805;Ratjetoe Apeldoorn POV;KDV;Midden Oost;Yvonne Schuurman;517878306;
+033;361202;SamSam BSO*;BSO;Rotterdam e.o.;Martine de Vries;nog niet bekend;Brian Zuijderduijn
+033;999901;Konnect KDV test;KDV;;;288280994;Iris de Pijper
+033;999902;Konnect BSO test;BSO;;;228066852;Urszula Windak
